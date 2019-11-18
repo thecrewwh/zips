@@ -1,0 +1,25 @@
+﻿<addon id="script.crew.sports"  name="[COLOR deeppink]THE CREW SPORTS[/COLOR]" version="0.0.28a" provider-name="The Crew">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.addon.common"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.httplib2"/>
+		<import addon="script.module.arrow"/>
+		<import addon="script.module.beautifulsoup4"/>
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>all</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Crew is a team of highly skilled talent that provides you with the best of the best We Thank GoldenHat for this plugin.</summary>
+		<description lang="en">Many come, Many go. The true and dedicated are here. Enjoy Your Entertainment.</description>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

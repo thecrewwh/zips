@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.3c">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="script.marauder.artwork" />
+        <import addon="script.marauder.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.metahandler" />
+        <import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.pyqrcode" version="0.0.1"/>
+        <import addon="script.module.barnaclescrapers" />
+        <import addon="script.module.openscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+    </requires>
+    <extension library="marauder.py" point="xbmc.python.pluginsource">
+        <provides>audio video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Marauder</summary>
+        <description lang="en_GB">Movie, TV Show, and Playlist Add-on</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>

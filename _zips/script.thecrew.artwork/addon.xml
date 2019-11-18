@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.thecrew.artwork" version="0.0.17" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>The Crew Artwork</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+          <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
