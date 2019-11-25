@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.program.breezz_wizard" name="[B][COLORred]Bree[COLORcyan]zzWi[COLORdarkblue]zard[/COLOR][/B]" version="1.5.0" provider-name="breezz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">breezz wizard</summary>
+    <description lang="en">new wizard for kodi builds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.Buildwizard" name="absolution Build wizard" version="1.1.7" provider-name="absolution Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
