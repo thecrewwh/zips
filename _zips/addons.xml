@@ -87,7 +87,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.enigma" name="[COLORaqua]Enigma[/COLOR]" version="2.0.3" provider-name="CC/Community">
+<addon id="plugin.video.enigma" name="[COLORaqua]Enigma[/COLOR]" version="2.0.4" provider-name="CC/Community">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
