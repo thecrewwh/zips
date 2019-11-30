@@ -179,7 +179,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.4">
+<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.5">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
         <import addon="script.marauder.artwork" />
@@ -483,7 +483,7 @@
     </extension>
 </addon>
 
-<addon id="script.marauder.artwork" version="2.0.2" name="Marauder Artwork" provider-name="">
+<addon id="script.marauder.artwork" version="2.0.4" name="Marauder Artwork" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
