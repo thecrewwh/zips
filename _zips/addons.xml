@@ -231,7 +231,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="0.0.56" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.57" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.thecrew" />
@@ -671,7 +671,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR deeppink]THE CREW MODULE[/COLOR]" version="0.0.56" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR deeppink]THE CREW MODULE[/COLOR]" version="0.0.57" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -703,7 +703,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.19" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.20" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
