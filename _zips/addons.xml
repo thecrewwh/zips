@@ -45,6 +45,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.tantrumadvsettings" name="Tantrum Advanced Settings" version="0.0.1" provider-name="MuadDib">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Create, view, edit and delete your Kodi v17 advancedsettings.xml file in a user-friendly gui</summary>
+        <description>All settings follow the Kodi Wiki[CR][CR]With this tool you can create your advanced settings directly from Kodi[CR][CR]If you don't know what a setting does, don't change it![CR][CR]This is a fork of the Easy Advanced Settings, version 0.8.9 (Kodi v16 standard)</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>Beerware rev. 42</license>
+        <forum/>
+        <website>http://www.tantrumtv.com</website>
+        <source/>
+        <email>muaddib@tantrumtv.com</email>
+    </extension>
+</addon>
+
 <addon id="plugin.program.thecrewiz" name="[COLOR deeppink]THE CREW WIZARD[/COLOR]" version="0.0.8" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -231,7 +252,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="0.0.59" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.59a" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.thecrew" />
@@ -671,7 +692,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR deeppink]THE CREW MODULE[/COLOR]" version="0.0.59" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR deeppink]THE CREW MODULE[/COLOR]" version="0.0.59a" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -703,7 +724,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.22" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.23" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
@@ -718,7 +739,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.metadata" version="0.0.2a" name="[COLOR deeppink]THE CREW METADATA[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.metadata" version="0.0.3" name="[COLOR deeppink]THE CREW METADATA[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
