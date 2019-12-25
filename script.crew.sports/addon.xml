@@ -10,7 +10,7 @@
 		<import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+        <provides>all</provides>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
