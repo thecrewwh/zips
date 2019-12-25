@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.1">
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.1a">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension name="The Crew" point="xbmc.addon.repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zips</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
