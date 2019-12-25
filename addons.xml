@@ -286,7 +286,7 @@
         <import addon="script.thecrew.artwork" />
         <import addon="script.thecrew.metadata" />
         <import addon="script.module.resolveurl" />
-        <import addon="script.module.metahandler" version="3.99.01" />
+        <import addon="script.module.metahandler" />
         <import addon="plugin.video.youtube" optional="true" /> />
         <import addon="script.crew.sports" optional="true" /> />
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
