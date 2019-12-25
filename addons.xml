@@ -527,7 +527,7 @@
   </extension>
 </addon>
 
-﻿<addon id="script.crew.sports"  name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.30" provider-name="The Crew">
+﻿<addon id="script.crew.sports"  name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.31" provider-name="The Crew">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.addon.common"/>
@@ -751,7 +751,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.24" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.25" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -769,7 +769,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.metadata" version="0.0.4" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.metadata" version="0.0.5" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
