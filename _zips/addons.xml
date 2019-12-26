@@ -463,7 +463,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.3">
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.4">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
