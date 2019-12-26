@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.tantrumadvsettings" name="Tantrum Advanced Settings" version="0.0.1" provider-name="MuadDib">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Create, view, edit and delete your Kodi v17 advancedsettings.xml file in a user-friendly gui</summary>
+        <description>All settings follow the Kodi Wiki[CR][CR]With this tool you can create your advanced settings directly from Kodi[CR][CR]If you don't know what a setting does, don't change it![CR][CR]This is a fork of the Easy Advanced Settings, version 0.8.9 (Kodi v16 standard)</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>Beerware rev. 42</license>
+        <forum/>
+        <website>http://www.tantrumtv.com</website>
+        <source/>
+        <email>muaddib@tantrumtv.com</email>
+    </extension>
+</addon>
