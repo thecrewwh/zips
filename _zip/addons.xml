@@ -30,21 +30,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.elekta" name="[COLOR cyan][B]E[COLOR mediumorchid]lekta [COLOR cyan]W[COLOR mediumorchid]izard[/COLOR][/B]" version="2.0.3" provider-name="Elekta">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR cyan]E[COLOR mediumorchid]lekta [COLOR cyan]W[COLOR mediumorchid]izard[/COLOR]</summary>
-    <description lang="en">Wizard allows access to the latest [COLOR cyan]E[COLOR mediumorchid]lekta[/COLOR] Builds.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.program.tantrumadvsettings" name="Tantrum Advanced Settings" version="0.0.1" provider-name="MuadDib">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
