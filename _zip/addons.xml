@@ -51,7 +51,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.10" provider-name="The Crew">
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.11" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -123,7 +123,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ghost" name="Ghost Addon" version="4.0.1" provider-name="Frank">
+<addon id="plugin.video.ghost" name="Ghost Addon" version="4.0.2" provider-name="Frank">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -237,7 +237,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2019.05.25"
+  version="2019.12.29"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -500,7 +500,7 @@
 	</extension>
 </addon>
 
-<addon id="resource.uisounds.crew" version="1.0.0" name="[COLOR deeppink]THE CREW SOUNDS[/COLOR]" provider-name="The Crew">
+<addon id="resource.uisounds.crew" version="1.0.1" name="[COLOR deeppink]THE CREW SOUNDS[/COLOR]" provider-name="The Crew">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
   </requires>
@@ -700,7 +700,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.62" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.62a" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
