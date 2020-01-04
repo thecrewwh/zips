@@ -197,7 +197,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.6e">
+<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.6f">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
         <import addon="script.marauder.artwork" />
@@ -264,7 +264,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="0.0.61e" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.61p" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.thecrew" />
@@ -700,7 +700,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.62b" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.62p" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
@@ -736,7 +736,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.25" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.25p" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
