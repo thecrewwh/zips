@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.thecrew.artwork" version="0.0.25" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.26" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
