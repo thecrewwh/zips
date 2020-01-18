@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.xmlerator" name="XMLerator" version="5.6.1" provider-name="TonyH">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="script.module.addon.common" version="2.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<extension point="xbmc.service" library="service.py" start="[login|startup]" />
+		<summary lang="en">Generate xml's from online lists</summary>
+		<description lang="en"> Modified Version by ja5on to include extra sublinks  All credit to TonyH Generate xml's from user made lists using list numbers from tmdb, imdb, and trakt</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
