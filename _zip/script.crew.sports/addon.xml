@@ -1,4 +1,4 @@
-﻿<addon id="script.crew.sports"  name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.40" provider-name="The Crew">
+﻿<addon id="script.crew.sports"  name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.41" provider-name="The Crew">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.addon.common"/>
@@ -7,7 +7,7 @@
 		<import addon="script.module.arrow"/>
 		<import addon="script.module.beautifulsoup4"/>
 		<import addon="script.module.resolveurl"/>
-		<import addon="script.module.python.koding.aio" version="0.0.1"/>
+		<import addon="script.module.python.koding.aio.alt" version="1.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
         <provides>all</provides>
