@@ -30,27 +30,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.tantrumadvsettings" name="Tantrum Advanced Settings" version="0.0.1" provider-name="MuadDib">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Create, view, edit and delete your Kodi v17 advancedsettings.xml file in a user-friendly gui</summary>
-        <description>All settings follow the Kodi Wiki[CR][CR]With this tool you can create your advanced settings directly from Kodi[CR][CR]If you don't know what a setting does, don't change it![CR][CR]This is a fork of the Easy Advanced Settings, version 0.8.9 (Kodi v16 standard)</description>
-        <platform>all</platform>
-        <language>en</language>
-        <license>Beerware rev. 42</license>
-        <forum/>
-        <website>http://www.tantrumtv.com</website>
-        <source/>
-        <email>muaddib@tantrumtv.com</email>
-    </extension>
-</addon>
-
 <addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.11" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -400,7 +379,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.9">
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.2.10">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -430,22 +409,27 @@
 			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]" />
 	<extension point="xbmc.addon.metadata">
-	<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
-	<description lang="en">Many come, Many go. The true and dedicated are here. We here</description>
-	<platform>all</platform>
-	<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-	<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/art/ss/1.png</screenshot>
-		<screenshot>resources/art/ss/2.png</screenshot>
-		<screenshot>resources/art/ss/3.png</screenshot>
-	</assets>
-</extension>
+		<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+		<description lang="en">Many come, Many go. The true and dedicated are here. We here</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/ss/1.png</screenshot>
+			<screenshot>resources/art/ss/2.png</screenshot>
+			<screenshot>resources/art/ss/3.png</screenshot>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="resource.uisounds.crew" version="1.0.1" name="[COLOR orchid]THE CREW SOUNDS[/COLOR]" provider-name="The Crew">
@@ -604,55 +588,6 @@
     <email></email>
     <source></source>
   </extension>
-</addon>
-
-<addon id="script.module.python.koding.aio"
-   name="Python Koding AIO"
-   version="1.0"
-   provider-name="Total Revolution">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="1.2.0"/>
-    <import addon="script.module.requests" version="2.3.0"/>
-    <import addon="script.module.beautifulsoup" version="2.1.31"/>
-    <import addon="script.module.unidecode" version="0.4.16"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Python Koding All In One</summary>
-    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <license>Creative Commons 4.0-NC-ND</license>
-    <forum>http://totalrevolution.tv/forum</forum>
-    <website>http://totalrevolution.tv</website>
-    <news>1.0 Stable release</news>
-    <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
-  </extension>
-</addon>
-
-<addon id="script.module.python.koding.aio.alt" name="Python Koding AIO Alternate" version="1.1" provider-name="Total Revolution">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.unidecode" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Python Koding All In One</summary>
-        <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. This is an alterrnate fork that uses ResolveURL instead of URL Resolver.</description>
-        <disclaimer lang="en"/>
-        <language/>
-        <license>Creative Commons 4.0-NC-ND</license>
-        <forum>http://totalrevolution.tv/forum</forum>
-        <website>http://totalrevolution.tv</website>
-        <news>1.0 Stable release</news>
-        <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
-    </extension>
 </addon>
 
 <addon id="script.module.slproxy" name="SLProxy" version="0.0.5" provider-name="devilsport">
