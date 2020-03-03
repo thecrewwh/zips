@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.breezz_wizard" name="[B][COLORred]Bree[COLORcyan]zzWi[COLORdarkblue]zard[/COLOR][/B]" version="1.5.0" provider-name="breezz">
+<addon id="plugin.program.breezz_wizard" name="[B][COLORred]Bree[COLORcyan]zzWi[COLORdarkblue]zard[/COLOR][/B]" version="1.5.1" provider-name="breezz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
