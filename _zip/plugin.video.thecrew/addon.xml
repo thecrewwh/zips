@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.thecrew" version="0.0.67" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.68" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.thecrew" />
@@ -8,7 +8,7 @@
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
-        <import addon="plugin.video.youtube" optional="true" /> />
+        <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.crew.sports" optional="true" /> />
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
