@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.12" provider-name="The Crew">
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.13" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
