@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.breezz_wizard" name="[B][COLORred]Bree[COLORcyan]zzWi[COLORdarkblue]zard[/COLOR][/B]" version="1.5.0" provider-name="breezz">
+<addon id="plugin.program.breezz_wizard" name="[B][COLORred]Bree[COLORcyan]zzWi[COLORdarkblue]zard[/COLOR][/B]" version="1.5.1" provider-name="breezz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.11" provider-name="The Crew">
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.13" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -126,11 +126,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ghost" name="Ghost Addon" version="4.0.3" provider-name="Frank">
+<addon id="plugin.video.ghost" name="Ghost Addon" version="4.0.5" provider-name="Punk">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio.alt" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -199,7 +199,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.8a">
+<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.9">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
         <import addon="script.marauder.artwork" />
@@ -266,7 +266,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="0.0.66a" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.70a" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.thecrew" />
@@ -275,7 +275,7 @@
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
-        <import addon="plugin.video.youtube" optional="true" /> />
+        <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.crew.sports" optional="true" /> />
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
@@ -328,11 +328,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.voodoo" name="Voodoo Addon" version="2.0.2" provider-name="Frank">
+<addon id="plugin.video.voodoo" name="Voodoo Addon" version="2.0.4" provider-name="Punk">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio.alt" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -444,7 +444,7 @@
   </extension>
 </addon>
 
-﻿<addon id="script.crew.sports"  name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.42a" provider-name="The Crew">
+﻿<addon id="script.crew.sports"	name="[COLOR orchid]THE CREW SPORTS[/COLOR]" version="0.0.57a" provider-name="The Crew">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.addon.common"/>
@@ -456,19 +456,19 @@
 		<import addon="script.module.python.koding.aio.alt" version="1.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>all</provides>
+		<provides>all</provides>
 	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
-        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+		<description lang="en">Many come, Many go. The true and dedicated are here.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="script.marauder.artwork" version="2.0.4" name="Marauder Artwork" provider-name="">
@@ -652,7 +652,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.66g" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.70b" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
@@ -715,7 +715,7 @@
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.29" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.30" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
