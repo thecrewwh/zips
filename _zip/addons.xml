@@ -199,7 +199,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.0.9">
+<addon id="plugin.video.marauder" name="[COLORorange]Marauder[/COLOR]" provider-name="" version="2.1.0">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
         <import addon="script.marauder.artwork" />
@@ -495,7 +495,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.barnaclescrapers" name="BarnacleScrapers Module" version="1.0.5" provider-name="">
+<addon id="script.module.barnaclescrapers" name="BarnacleScrapers Module" version="1.0.6" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
