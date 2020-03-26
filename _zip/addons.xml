@@ -494,7 +494,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.barnaclescrapers" name="BarnacleScrapers Module" version="1.0.6" provider-name="">
+<addon id="script.module.barnaclescrapers" name="BarnacleScrapers Module" version="1.0.7" provider-name="">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
