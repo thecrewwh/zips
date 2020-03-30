@@ -237,6 +237,27 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.shadow"
+	   name="Shadow"
+	   version="1.0.8"
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The single light in the Darkness, Thanks to Nixgates for some of his code</summary>
+    <description lang="en">All the media as fast as possiable</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="2019.12.29"
