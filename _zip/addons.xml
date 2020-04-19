@@ -268,7 +268,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="1.4.4"
+	   version="1.4.7"
 	   provider-name="Darkness">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -549,7 +549,7 @@
 	</extension>
 </addon>
 
-<addon id="script.EleKtaPair" name="[B][COLOR cyan]E[COLOR mediumorchid]leKta [COLOR cyan]P[COLOR mediumorchid]airing [COLOR cyan]T[COLOR mediumorchid]ool[/COLOR][/B]" version="1.1" provider-name="[B][I][COLOR cyan]Klepto[/COLOR][/I][/B]">
+<addon id="script.EleKtaPair" name="[B][COLOR cyan]E[COLOR mediumorchid]leKta [COLOR cyan]P[COLOR mediumorchid]airing [COLOR cyan]T[COLOR mediumorchid]ool[/COLOR][/B]" version="1.2" provider-name="[B][I][COLOR cyan]Klepto[/COLOR][/I][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
