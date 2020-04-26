@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.EleKtaPair" name="[B][COLOR cyan]E[COLOR mediumorchid]leKta [COLOR cyan]P[COLOR mediumorchid]airing [COLOR cyan]T[COLOR mediumorchid]ool[/COLOR][/B]" version="1.2" provider-name="[B][I][COLOR cyan]Klepto[/COLOR][/I][/B]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>script executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Pairing / Authorization Tool for use with [COLOR mediumorchid]EleKta[/COLOR] builds.</summary>
+		<description lang="en">This tool allows you to Pair your device with various pairing sites such as Openload as well as Authorize your Real Debrid account for URLResolver and/or ResolveURL. It is NOT compatible with Firesticks!</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	</extension>
+</addon>
