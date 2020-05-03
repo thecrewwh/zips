@@ -294,7 +294,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="1.6.4"
+	   version="1.6.5"
 	   provider-name="Darkness">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -483,7 +483,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.0">
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.1">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
