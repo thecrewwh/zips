@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ghostporn" name="Ghost Porn" version="1.0.0" provider-name="Punk">
+<addon id="plugin.video.ghostporn" name="Ghost Porn" version="1.0.1" provider-name="Punk">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
