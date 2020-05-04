@@ -879,26 +879,23 @@
     </extension>
 </addon>
 
-<addon id="script.module.worldtv" name="World Tv" version="1.0.0" provider-name="Ghost">
+<addon id="script.module.worldtvghost" name="World Tv" version="1.0" provider-name="Ghost">
   <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.pycryptodome" />
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
     <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
     <import addon="script.module.routing" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">This module has been cloned from the Racc TvOne add-on. All credit to him.</summary>
-    <description lang="en_gb">Ghost</description>
+    <summary lang="en_gb">All credit goes to the Original Dev RACC</summary>
+    <description lang="en_gb">World Tv Module</description>
     <disclaimer lang="en_gb"></disclaimer>
     <language></language>
     <platform>all</platform>
-    <license>GPL-3.0</license>
+    <license></license>
     <forum></forum>
     <website></website>
     <email></email>
