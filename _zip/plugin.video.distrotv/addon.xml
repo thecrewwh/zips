@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< Updated upstream
-<addon id="plugin.video.distrotv" name="DistroTv Addon" version="1.0.1" provider-name="TonyH">
-=======
 <addon id="plugin.video.distro" name="DistroTv Addon" version="1.0.1" provider-name="TonyH">
->>>>>>> Stashed changes
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.requests" version="2.9.1" />
