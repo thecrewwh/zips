@@ -607,6 +607,30 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.xumo2tv" name="Xumo Tv Addon" version="1.0.1" provider-name="TonyH">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+		<import addon="script.module.dateutil" />
+		<import addon="script.module.uepg" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Xumo Tv Addon</summary>
+        <description lang="en">Live and Vod content from Xumo TV</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <platform>all</platform>
+        <website/>
+        <video_guide></video_guide>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+
 <addon id="repository.orion" version="3.3.0" name="Orion Repository" provider-name="Orion">
 	<extension point="xbmc.addon.repository" name="Orion Repository">
 		<info compressed="false">https://repo.orionoid.com/addons.xml?v=3.3.0</info>
@@ -1020,6 +1044,33 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.uepg" version="5.0.3" name="uEPG" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.pyhdhr" version="1.0.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="/"/>
+    <extension point="xbmc.python.script" library="uepg.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Universal Electronic Programing Guide Framework</summary>
+        <description lang="en_GB">uEPG is a drop-in EPG module, developers can easily add custom electronic programing guides to any Kodi plugin with little effort; Developers can use the default interface or customize to match a specific provider.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <source>https://github.com/Lunatixz/KODI_Addons/tree/master/script.module.uepg</source>
+        <forum>https://forum.kodi.tv/showthread.php?tid=321231</forum>
+        <news>v1.0.6[CR]- Improved functionally[CR]v1.0.3[CR]- Fixed listitem Parsing and Default Skin[CR]1.0.2[CR]- Added HDHomerun Tuner Support</news>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <screenshot>resources/images/screenshot01.png</screenshot>
+            <screenshot>resources/images/screenshot02.png</screenshot>
+            <screenshot>resources/images/screenshot03.png</screenshot>
+            <screenshot>resources/images/screenshot04.png</screenshot>
         </assets>
     </extension>
 </addon>
