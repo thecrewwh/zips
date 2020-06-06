@@ -45,7 +45,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.17" provider-name="The Crew">
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="0.0.18" provider-name="The Crew">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -440,7 +440,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="1.9.5"
+	   version="1.9.4"
 	   provider-name="Darkness">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
