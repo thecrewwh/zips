@@ -407,7 +407,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="2.0.1"
+	   version="2.0.2"
 	   provider-name="Darkness">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -899,7 +899,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.swiftstreamz1" name="SwiftStreamz" version="1.0.0" provider-name="Ghost">
+<addon id="script.module.swiftstreamzghost" name="SwiftStreamz" version="2.0.0" provider-name="Ghost">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.pycryptodome" />
