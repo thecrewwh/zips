@@ -256,7 +256,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ghost" name="Ghost Addon" version="5.0.1" provider-name="Punk">
+<addon id="plugin.video.ghost" name="Ghost" version="5.0.2" provider-name="Punk">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
