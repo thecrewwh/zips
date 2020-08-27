@@ -453,9 +453,11 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="2.1.9"
+	   version="2.2.0"
 	   provider-name="Darkness">
   <requires>
+	<import addon="script.module.resolveurl" version="5.0.00"/>
+	<import addon="script.module.openscrapers" version="0.0.2.008" />
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.six" version="0.0.1"/>
 	<import addon="script.module.requests"/>
