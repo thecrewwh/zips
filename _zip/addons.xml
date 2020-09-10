@@ -483,7 +483,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="2.3.3"
+	   version="2.3.4"
 	   provider-name="Darkness">
   <requires>
 
