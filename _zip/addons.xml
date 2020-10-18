@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.Buildwizard" name="Chains Build wizard" version="1.1.9" provider-name="absolution Builds">
+<addon id="plugin.program.Buildwizard" name="Chains Build wizard" version="2.0.1" provider-name="absolution Builds">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -41,6 +41,21 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Djay Themes Wizard</summary>
     <description lang="en">In this wizard you will find the latest Themes from Djay. Thanks whufclee at NaN, GUYS at TI, Brackets for the app installer!! RomanVM for the PyXBMCt libs. Fire TV Guru for the PyXBMCt layout  Also a very special Thanks to Surfacingx for the code used in this add-on.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.funstersplacewizard" name="[COLOR yellow]Funstersplace Wizard[/COLOR]" version="3.0" provider-name="[COLOR red]Funsterbe[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Funstersplace Wizard</summary>
+    <description lang="en">In this wizard you will find the latest Funstersplace builds. Thanks whufclee at NaN, GUYS at TI, Brackets for the app installer!! RomanVM for the PyXBMCt libs. Fire TV Guru for the PyXBMCt layout  Also a very special Thanks to Surfacingx for the base code used in this add-on.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -271,11 +286,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.enigma" name="[COLORaqua]Enigma[/COLOR]" version="2.0.4" provider-name="CC/Community">
+<addon id="plugin.video.enigma" name="[COLORaqua]Enigma[/COLOR]" version="2.0.5" provider-name="CC/Community">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
