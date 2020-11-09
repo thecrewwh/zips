@@ -204,7 +204,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cr" name="[COLORlime][B]CHAINS SINISTERS[/COLOR][/B]" version="2.0.7" provider-name="Chains">
+<addon id="plugin.video.cr" name="[COLORmagenta][B]CHAINS SINISTERS[/COLOR][/B]" version="2.0.8" provider-name="Chains">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -571,7 +571,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="0.0.95" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.96" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.thecrew" />
@@ -1043,7 +1043,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.95" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.96" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
