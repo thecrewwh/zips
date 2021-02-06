@@ -541,6 +541,23 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="2.6.1" provider-name="SG">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SSTV Addon</summary>
+    <language>en</language>
+    <description lang="en">Come visit our site: https://sstvhd.uk/ and Follow us on Twitter: @SSTVUK</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.thecrew" version="0.0.98" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
