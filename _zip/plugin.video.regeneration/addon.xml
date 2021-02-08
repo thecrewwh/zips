@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.cr" name="[COLORgold][B]CHAINS[/COLOR][/B]" version="3.0.0" provider-name="Chains">
+<addon id="plugin.video.regeneration" name="[COLORgold][B]REGENERATION[/COLOR][/B]" version="1.0.0" provider-name="Chains">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -15,10 +15,10 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.jen" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">AIO for the community</summary>
-        <description lang="en">AIO for the community</description>
+        <summary lang="en">for the community</summary>
+        <description lang="en">Doctor Who Complete Collection</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
         <video_guide>https://youtu.be/0kFhoWahtFw</video_guide>
