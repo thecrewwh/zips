@@ -521,11 +521,11 @@
 </addon>
 
 <addon id="plugin.video.shadow"
-       name="Shadow"
-       version="2.5.3"
-       provider-name="Darkness">
+	   name="Shadow"
+	   version="2.5.6"
+	   provider-name="Darkness">
   <requires>
-        <import addon="script.module.resolveurl" />
+
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -536,7 +536,7 @@
     <description lang="en">All the media as fast as possible</description>
 
     <platform>all</platform>
-    <assets>
+	<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
     </assets>
