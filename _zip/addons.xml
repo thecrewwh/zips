@@ -522,7 +522,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="2.5.6"
+	   version="2.5.7"
 	   provider-name="Darkness">
   <requires>
 
