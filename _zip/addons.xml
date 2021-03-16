@@ -522,7 +522,7 @@
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="2.5.9"
+	   version="2.6.1"
 	   provider-name="Darkness">
   <requires>
 
@@ -592,7 +592,7 @@
 
 <addon id="plugin.video.theboys"
 	   name="The Boys"
-	   version="1.0.2"
+	   version="1.0.3"
 	   provider-name="The Boys">
   <requires>
 	<import addon="script.module.resolveurl" />
