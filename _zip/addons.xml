@@ -592,7 +592,7 @@
 
 <addon id="plugin.video.theboys"
 	   name="The Boys"
-	   version="1.0.3"
+	   version="1.0.4"
 	   provider-name="The Boys">
   <requires>
 	<import addon="script.module.resolveurl" />
