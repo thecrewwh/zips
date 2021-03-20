@@ -573,10 +573,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="2.6.1" provider-name="SG">
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.5" provider-name="SG">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.kodi-six" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -587,6 +588,10 @@
     <language>en</language>
     <description lang="en">Come visit our site: https://sstvhd.uk/ and Follow us on Twitter: @SSTVUK</description>
      <platform>all</platform>
+  <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+     </assets>
   </extension>
 </addon>
 
