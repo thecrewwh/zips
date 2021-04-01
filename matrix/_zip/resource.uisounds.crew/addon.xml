@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.crew" version="1.0.1" name="[COLOR orchid]THE CREW SOUNDS[/COLOR]" provider-name="The Crew">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">The Crew Sounds</summary>
+    <description lang="en">The Crew Sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
