@@ -98,7 +98,7 @@
 
 <addon id="plugin.video.theboys"
 	   name="The Boys"
-	   version="1.0.6"
+	   version="1.0.7"
 	   provider-name="The Boys">
   <requires>
 	<import addon="script.module.resolveurl" />
