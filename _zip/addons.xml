@@ -160,8 +160,8 @@
 </addon>
 
 <addon id="plugin.video.chains"
-	   name="Chains"
-	   version="1.0.3"
+	   name="[COLORgold]Chains[/COLOR]"
+	   version="1.0.5"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
