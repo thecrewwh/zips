@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.thecrew" name="The Crew Sports" version="1.0.1a" provider-name="The Crew">
+	<requires>
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.thecrew.artwork" />
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.simplejson" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="thecrew.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Crew Sports</summary>
+		<description lang="en"></description>
+		<news>All Sports</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>

@@ -50,6 +50,36 @@
 
 </addon>
 
+<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="3.0.0~beta1" provider-name="Jizzplanet.com">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.resolveurl" version="5.0.00" />
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Jizz Planet</summary>
+		<description lang="en">Unofficial A-Z Adult Addon by Jizzplanet.com.</description>
+		<news>Version2</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.shadow"
 	   name="Shadow"
 	   version="2.6.7"
@@ -120,6 +150,36 @@
 
 </addon>
 
+<addon id="plugin.video.thecrew" name="The Crew Sports" version="1.0.1a" provider-name="The Crew">
+	<requires>
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.thecrew.artwork" />
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.simplejson" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="thecrew.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Crew Sports</summary>
+		<description lang="en"></description>
+		<news>All Sports</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
 <addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.4">
 	<extension point="xbmc.addon.repository" name="The Crew" >
 			<dir minversion="16.0.0" maxversion="18.9.9">
@@ -184,5 +244,23 @@
     <description lang="en">The Crew Sounds</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="script.thecrew.artwork" version="0.0.36" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
