@@ -35,7 +35,33 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="1.0.4" provider-name="The Crew">
+<addon id="plugin.program.theboys" name="[COLOR red]THE BOYS WIZARD[/COLOR]" version="1.0.0" provider-name="The Boys">
+  <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Boys will be boys</summary>
+        <description lang="en">The Boys are back in town.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/art/ss/1.png</screenshot>
+            <screenshot>resources/art/ss/2.png</screenshot>
+            <screenshot>resources/art/ss/3.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="1.0.5" provider-name="The Crew">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" />
@@ -59,6 +85,41 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
+</addon>
+
+<addon id="plugin.program.themewizardmatrix" name="[COLORghostwhite]Theme Matrix Wizard[/COLOR]" version="1.0.7" provider-name="CHAINS">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">The Theme Wizard is  for installing Themes Only on Kodi 19 Matrix.</summary>
+		<description lang="en_GB">Kodi 19 Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news>1.0.6 - Added Notifications Dialog. Special thanks to Blue for art and helping with the design. 1.0.5 - Bugfixes. 1.0.3 - Added download progress to build install. 1.0.2 - Added option to encode the buildfile variable to a base64 string. 1.0.1 - Added the option to use json for build file. 1.0.0 - Basic clean up. Ready for official release. 0.0.9 - Added Save Menu, 0.0.8 - Bug fixes, 0.0.7 - Added Advanced Settings presets to Maintenance. 0.0.6 - Added Clear Packages, the first of the Maintenance section.
+0.0.5 - Bug fixes
+0.0.4 - Added enabling of disabled addons on build first run. Added update repos on build first run.
+0.0.3 - Added prompt notifying when new version of installed build is available.
+0.0.2 - Initial Release
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.chains"
@@ -185,34 +246,40 @@
 
 </addon>
 
-<addon id="plugin.video.thecrew" name="The Crew Sports" version="1.0.2" provider-name="The Crew">
-	<requires>
-		<import addon="script.module.pyxbmct" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.thecrew.artwork" />
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.simplejson" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="thecrew.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Crew Sports</summary>
-		<description lang="en"></description>
-		<news>All Sports</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-		</assets>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-	</extension>
+<addon id="plugin.video.thecrew" version="1.0.3" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+        <import addon="script.module.thecrew" />
+        <import addon="script.thecrew.artwork" />
+        <import addon="script.thecrew.metadata" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    </requires>
+    <extension library="thecrew.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/art/ss/1.png</screenshot>
+            <screenshot>resources/art/ss/2.png</screenshot>
+            <screenshot>resources/art/ss/3.png</screenshot>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.4">
@@ -281,7 +348,44 @@
   </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.36" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.0.3" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.thecrew.artwork" version="1.0.0" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.thecrew.metadata" version="1.0.0" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
     </requires>

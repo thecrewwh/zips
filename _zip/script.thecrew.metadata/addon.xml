@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.thecrew.metadata" version="0.0.5" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.metadata" version="1.0.0" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
     <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
