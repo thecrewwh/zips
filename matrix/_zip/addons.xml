@@ -146,6 +146,30 @@
 
 </addon>
 
+<addon id="plugin.video.hypersonicIPTV2"
+       name="[COLOR dodgerblue]Hypersonic [COLOR white]IPTV2[/COLOR]"
+       version="7.2"
+       provider-name="Hypersonic">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Discover [COLOR dodgerblue]Hypersonic [COLOR white]TV[/COLOR]</summary>
+    <language>en</language>
+    <description lang="en">[COLOR white]Enjoy Endless Entertainment - for more info go to:[/COLOR] [COLOR lime]https://hypersonic-tv.com[/COLOR][CR][COLOR yellow]Please download our android APP for VOD @[/COLOR] [COLOR lime]http://hypersonic-tv.com/hypersonic.apk[/COLOR][CR][COLOR white]Please report any channel issues in the Telegram support group.[CR][COLOR yellow]Can NOT login fix:[/COLOR] [COLOR white]Bring up the context menu then Information/Configure/Defaults then OK to save changes then login again using your unique numerical USERNAME and PASSWORD.[CR]Happy streaming![/COLOR]</description>
+     <platform>all</platform>
+  <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+     </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.jizzplanet" name="Jizz Planet" version="3.0.0~beta2" provider-name="Jizzplanet.com">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
