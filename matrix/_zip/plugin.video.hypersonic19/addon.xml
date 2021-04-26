@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.hypersonic19"
        name="[COLOR dodgerblue]Hypersonic [COLOR white]K19[/COLOR]"
-       version="7.2"
+       version="8.0"
        provider-name="Hypersonic">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -12,9 +12,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Discover [COLOR dodgerblue]Hypersonic [COLOR white]TV[/COLOR]</summary>
+    <summary lang="en">Discover [COLOR lightskyblue]Hypersonic [COLOR white]TV[/COLOR]</summary>
     <language>en</language>
-    <description lang="en">[COLOR white]Enjoy Endless Entertainment - for more info go to:[/COLOR] [COLOR lime]https://hypersonic-tv.com[/COLOR][CR][COLOR yellow]Please download our android APP for VOD @[/COLOR] [COLOR lime]http://hypersonic-tv.com/hypersonic.apk[/COLOR][CR][COLOR white]Please report any channel issues in the Telegram support group.[CR][COLOR yellow]Can NOT login fix:[/COLOR] [COLOR white]Bring up the context menu then Information/Configure/Defaults then OK to save changes then login again using your unique numerical USERNAME and PASSWORD.[CR]Happy streaming![/COLOR]</description>
+    <description lang="en">[COLOR white]Enjoy Endless Entertainment - for more info go to:[/COLOR] [COLOR lime]https://hypersonic-tv.com[/COLOR][CR][COLOR lightskyblue]Please download our android APP for VOD @[/COLOR] [COLOR lime]http://hypersonic-tv.com/hypersonic.apk[/COLOR][CR][COLOR white]Please report any channel issues in the Telegram group.[CR][COLOR lightskyblue]Can NOT login fix:[/COLOR] [COLOR white]Long press then Information/Configure/Defaults then OK to save changes. Log in again using your USERNAME and PASSWORD.[CR]Happy streaming![/COLOR]</description>
      <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
