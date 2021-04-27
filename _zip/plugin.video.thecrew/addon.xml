@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.thecrew" version="1.0.3" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="1.0.4" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
-        <!--<import addon="xbmc.python" version="2.25.0" />-->
+        <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.thecrew" />
         <import addon="script.thecrew.artwork" />
         <import addon="script.thecrew.metadata" />
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
+        <import addon="script.module.metahandler" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
-    <extension library="thecrew.py" point="xbmc.python.pluginsource">
+    <extension point="xbmc.python.pluginsource" library="thecrew.py">
         <provides>video</provides>
     </extension>
-    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
         <description lang="en">Many come, Many go. The true and dedicated are here.</description>
