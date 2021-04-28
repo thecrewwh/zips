@@ -124,7 +124,7 @@
 
 <addon id="plugin.video.butcher"
 	   name="[COLORgold]The Butcher[/COLOR]"
-	   version="1.0.6"
+	   version="1.0.0"
 	   provider-name="Billy Butcher">
   <requires>
 	<import addon="script.module.resolveurl" />
