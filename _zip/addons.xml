@@ -161,7 +161,7 @@
 
 <addon id="plugin.video.butcher"
 	   name="F##KING DIABOLICAL"
-	   version="1.0.6"
+	   version="1.0.7"
 	   provider-name="Billy Butcher">
   <requires>
 	<import addon="script.module.resolveurl" />
