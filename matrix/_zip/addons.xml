@@ -252,7 +252,7 @@
 
 </addon>
 
-<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.6" provider-name="SG">
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.7" provider-name="SG">
   <requires>
         <import addon="script.module.six" />
         <import addon="script.module.requests" />
@@ -298,7 +298,7 @@
 
 </addon>
 
-<addon id="plugin.video.thecrew" version="1.1.4" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="1.1.4a" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.thecrew" />
