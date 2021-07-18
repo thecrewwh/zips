@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.base19"                                                                                                                                    
+	   name="[COLORred]BASE 19[/COLOR]"                                                 
+	   version="1.0"                                                                                                                                        
+	   provider-name="BReeZz">
+  <requires>
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">All Thanks To Original Dev</summary>
+    <description lang="en">Real Debrid Required</description>
+	
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+  
+</addon>
