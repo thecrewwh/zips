@@ -360,7 +360,7 @@
 
 <addon id="plugin.video.UnchainedHorror"
 	   name="[COLORgold]Unchained Horror[/COLOR]"
-	   version="1.0.0"
+	   version="1.0.1"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
