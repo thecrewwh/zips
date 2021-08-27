@@ -358,6 +358,30 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.UnchainedHorror"
+	   name="[COLORgold]Unchained Horror[/COLOR]"
+	   version="1.0.0"
+	   provider-name="Chains">
+  <requires>
+	<import addon="script.module.resolveurl" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Horror Content Enter If You Dare</summary>
+    <description lang="en">Chains Addon</description>
+
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+
+</addon>
+
 <addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.4">
 	<extension point="xbmc.addon.repository" name="The Crew" >
 			<dir minversion="16.0.0" maxversion="18.9.9">
