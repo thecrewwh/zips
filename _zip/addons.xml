@@ -520,7 +520,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.purelywrestling" name="Purely Wrestling" version="1.0.0" provider-name="The Crew">
+<addon id="plugin.video.purelywrestling" name="Purely Wrestling" version="1.0.1" provider-name="The Crew">
 	<requires>
 		<import addon="script.module.pyxbmct" />
 		<import addon="script.module.resolveurl" />
