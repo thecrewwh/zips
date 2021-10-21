@@ -206,6 +206,30 @@
 
 </addon>
 
+<addon id="plugin.video.gallifreyan" name="gallifreyan" version="0.1.3" provider-name="Chains">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing"/>
+    <import addon="script.module.unidecode" />
+    <import addon="script.module.inputstreamhelper" />
+    <import addon="script.module.resolveurl"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Complete Doctor Who Collection All One Click Debrid Is Needed</summary>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.hypersonic19"
        name="[COLOR dodgerblue]Hypersonic [COLOR white]K19[/COLOR]"
        version="8.0"
