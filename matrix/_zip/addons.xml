@@ -336,7 +336,7 @@
 
 </addon>
 
-<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.8" provider-name="SG">
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.9" provider-name="SG">
   <requires>
         <import addon="script.module.six" />
         <import addon="script.module.requests" />
