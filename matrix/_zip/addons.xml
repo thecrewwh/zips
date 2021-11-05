@@ -230,6 +230,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.ghost"
+	   name="Ghost"
+	   version="1.0.0"
+	   provider-name="Ghost">
+  <requires>
+	<import addon="script.module.resolveurl"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ghost Addon</summary>
+    <description lang="en">All in one addon</description>
+
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.hypersonic19"
        name="[COLOR dodgerblue]Hypersonic [COLOR white]K19[/COLOR]"
        version="8.0"
@@ -547,7 +571,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.1.5a" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.1.5b" provider-name="The Crew">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.beautifulsoup4"/>
