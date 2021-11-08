@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.chains"
 	   name="[COLORgold]Chains[/COLOR]"
-	   version="2.0.1"
+	   version="2.0.5"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
@@ -11,7 +11,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All credits to the original developer</summary>
+    <summary lang="en">All in one addon</summary>
     <description lang="en">Chains Addon</description>
 	
     <platform>all</platform>

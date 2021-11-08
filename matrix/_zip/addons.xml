@@ -184,7 +184,7 @@
 
 <addon id="plugin.video.chains"
 	   name="[COLORgold]Chains[/COLOR]"
-	   version="2.0.1"
+	   version="2.0.5"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
@@ -194,7 +194,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All credits to the original developer</summary>
+    <summary lang="en">All in one addon</summary>
     <description lang="en">Chains Addon</description>
 
     <platform>all</platform>
@@ -336,30 +336,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.shadow"
-	   name="Shadow"
-	   version="2.7.0"
-	   provider-name="Darkness">
-  <requires>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">The single light in the Darkness</summary>
-    <description lang="en">All the media as fast as possible</description>
-
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-
-</addon>
-
 <addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="3.0.9" provider-name="SG">
   <requires>
         <import addon="script.module.six" />
@@ -384,18 +360,18 @@
 
 <addon id="plugin.video.theboys"
 	   name="The Boys"
-	   version="1.0.9"
+	   version="1.1.0"
 	   provider-name="The Boys">
   <requires>
-	<import addon="script.module.resolveurl" />
+	<import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All credits to the original developer</summary>
-    <description lang="en">All In One Addon</description>
+    <summary lang="en">All in one addon</summary>
+    <description lang="en">All in one addon</description>
 
     <platform>all</platform>
 	<assets>
