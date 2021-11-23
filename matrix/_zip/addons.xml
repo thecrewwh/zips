@@ -158,10 +158,10 @@
 
 <addon id="plugin.video.base19"
 	   name="[COLORred]BASE 19[/COLOR]"
-	   version="1.0"
+	   version="1.0.1"
 	   provider-name="BReeZz">
   <requires>
-
+	<import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
