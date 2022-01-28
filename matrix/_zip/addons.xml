@@ -205,7 +205,7 @@
 
 <addon id="plugin.video.chains"
 	   name="[COLORteal]Chains[/COLOR]"
-	   version="3.0.1"
+	   version="4.0.6"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
@@ -215,7 +215,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All in one addon</summary>
+    <summary lang="en">Chains All in one addon</summary>
     <description lang="en">Chains Addon</description>
 
     <platform>all</platform>
@@ -225,30 +225,6 @@
     </assets>
   </extension>
 
-</addon>
-
-<addon id="plugin.video.gallifreyan" name="gallifreyan" version="0.1.3" provider-name="Chains">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing"/>
-    <import addon="script.module.unidecode" />
-    <import addon="script.module.inputstreamhelper" />
-    <import addon="script.module.resolveurl"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Complete Doctor Who Collection All One Click Debrid Is Needed</summary>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL-2.0-or-later</license>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.ghost"
@@ -421,30 +397,6 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.UnchainedHorror"
-	   name="[COLORgold]Unchained Horror[/COLOR]"
-	   version="1.0.3"
-	   provider-name="Chains">
-  <requires>
-	<import addon="script.module.resolveurl" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Horror Content Enter If You Dare</summary>
-    <description lang="en">Chains Addon</description>
-
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-
 </addon>
 
 <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.5.8" provider-name="doko">
