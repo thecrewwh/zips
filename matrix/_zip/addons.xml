@@ -229,7 +229,7 @@
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.0.9"
+	   version="1.2.1"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.resolveurl"/>
