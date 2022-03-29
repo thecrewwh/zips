@@ -203,30 +203,6 @@
 
 </addon>
 
-<addon id="plugin.video.chains"
-	   name="[COLORghostwhite][B]Chain Reaction[/B][/COLOR]"
-	   version="5.0.4"
-	   provider-name="Chains">
-  <requires>
-	<import addon="script.module.resolveurl" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Chains Reaction All in one addon</summary>
-    <description lang="en">Chains Addon</description>
-
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-
-</addon>
-
 <addon id="plugin.video.ghost"
 	   name="Ghost"
 	   version="1.2.5"
@@ -364,8 +340,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="Chain Reaction Light"
-	   version="1.0.3"
+	   name="Chain Reaction Lite"
+	   version="1.0.6"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -379,7 +355,7 @@
   <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Chain Reaction</summary>
+    <summary lang="en">Chain Reaction Lite</summary>
     <description lang="en">Faster Than A Speeding Bullet</description>
 
     <platform>all</platform>
