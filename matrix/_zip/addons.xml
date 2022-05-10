@@ -204,9 +204,9 @@
 </addon>
 
 <addon id="plugin.video.Genocide"
-	   name="Genocide"
-	   version="1.1.8"
-	   provider-name="Genocide">
+	   name="[COLORcyan]Genocide[/COLOR]"
+	   version="1.2.6"
+	   provider-name="[COLORcyan]Genocide[/COLOR]">
   <requires>
 	<import addon="script.module.resolveurl"/>
   </requires>
