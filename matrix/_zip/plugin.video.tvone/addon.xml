@@ -23,9 +23,6 @@
     <website/>
     <email/>
     <source/>
-    <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+    <assets/>
   </extension>
 </addon>

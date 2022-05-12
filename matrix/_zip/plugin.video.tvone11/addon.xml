@@ -17,9 +17,5 @@
     <disclaimer lang="en_gb"/>
     <platform>all</platform>
     <license>GPL-3.0</license>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>

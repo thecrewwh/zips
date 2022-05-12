@@ -455,10 +455,7 @@
     <website/>
     <email/>
     <source/>
-    <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+    <assets/>
   </extension>
 </addon>
 
@@ -480,10 +477,6 @@
     <disclaimer lang="en_gb"/>
     <platform>all</platform>
     <license>GPL-3.0</license>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
 
@@ -507,10 +500,6 @@
     <disclaimer lang="en_gb"/>
     <platform>all</platform>
     <license>GPL-3.0-only</license>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
 
@@ -540,10 +529,7 @@
     <website/>
     <email/>
     <source/>
-    <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+    <assets/>
   </extension>
 </addon>
 
