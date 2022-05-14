@@ -161,7 +161,7 @@
 
 <addon id="plugin.video.chains"
 	   name="[COLORteal]Chains[/COLOR]"
-	   version="3.0.1"
+	   version="4.0.6"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl" />
@@ -171,7 +171,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All in one addon</summary>
+    <summary lang="en">Chains All in one addon</summary>
     <description lang="en">Chains Addon</description>
 
     <platform>all</platform>
@@ -1068,7 +1068,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.0.5d" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.0.7" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
