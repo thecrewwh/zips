@@ -287,7 +287,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.1">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.2">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -307,7 +307,7 @@
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en_GB">Homelander</summary>
-        <description lang="en_GB">Homelander</description>
+        <description lang="en_GB">[COLOR red]The Crew Team[/COLOR]</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />
@@ -699,7 +699,7 @@ Add-on originally by doko.
   </extension>
 </addon>
 
-<addon id="script.homelander.artwork" version="1.0.0" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
+<addon id="script.homelander.artwork" version="1.0.1" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
@@ -715,7 +715,7 @@ Add-on originally by doko.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.1" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.2" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
