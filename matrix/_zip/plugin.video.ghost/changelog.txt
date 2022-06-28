@@ -1,4 +1,0 @@
-[COLOR red][B]Ghost v1.3.1[/B]
-Fixed Subtitles.
-Faster and smaller.
-
