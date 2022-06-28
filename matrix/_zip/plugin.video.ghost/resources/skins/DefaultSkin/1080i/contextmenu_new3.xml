@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<window>
+
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+     </coordinates>
+<!-- 	<animation effect="fade" time="100">WindowOpen</animation>
+    <animation effect="fade" time="100">WindowClose</animation> -->
+	
+    <controls>
+		<control type="image">
+					<description>Background image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>100%</width>
+					<height>100%</height>
+					<colordiffuse>CC000000</colordiffuse>
+					<texture background="false">fanart-fox-gold-final.png</texture>   
+				<visible>!Player.Playing</visible>				
+		</control>
+		<control type="group" id="5000">
+		    <posx>0</posx>
+			<posy>0</posy> 
+			
+			
+			<control type="image">
+				<description>Background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<texture>DialogBack.png</texture>    
+				<visible>Player.Playing</visible>				
+			</control>
+			<control type="image" id="5001">
+				<description>Background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>100%</width>
+				<height>100%</height>
+				<!-- <colordiffuse>55000000</colordiffuse> -->
+				<visible>!Player.Playing</visible>	
+			</control>
+						<control type="image">
+					<description>Background image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>100%</width>
+					<height>100%</height>
+					<colordiffuse>CC000000</colordiffuse>
+					<texture background="true">fanart-fox-gold-final.png</texture>   
+				<!-- <visible>!Player.Playing</visible>				 -->
+			</control>
+<!-- 						<control type="image">
+					<description>Background image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>100%</width>
+					<height>100%</height>
+					<colordiffuse>CC000000</colordiffuse>
+					<texture background="true">fanart-fox-gold-final.png</texture>   
+				<visible>Player.Playing</visible>				
+			</control> -->
+			<control type="label" id="6001">
+						<posx>1590</posx>
+						<posy>10</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-28</font>
+						
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						
+			</control>
+			<control type="image" id="101">
+                <left>1310</left>
+                <top>60</top>
+                <width>600</width>
+                <height>600</height>
+				<visible>!Player.Playing</visible>
+            </control>
+			
+			<control type="image" id="103">
+                <left>1310</left>
+                <top>540</top>
+                <width>120</width>
+                <height>70</height>
+				
+				
+				<texture colordiffuse="fff0f0f0" >resolution/$INFO[VideoPlayer.VideoResolution].png</texture>
+							
+            </control>
+			<control type="image" id="103">
+                <left>1460</left>
+                <top>540</top>
+                <width>120</width>
+                <height>70</height>
+				
+				
+				<texture colordiffuse="fff0f0f0">channels/$INFO[VideoPlayer.AudioChannels].png</texture>
+							
+            </control>
+			
+			<control type="image">
+                     <left>1600</left>
+                <top>540</top>
+                <width>120</width>
+                <height>70</height>
+              	     <texture colordiffuse="fff0f0f0" fallback="fallback.png">audio/$INFO[VideoPlayer.AudioCodec].png</texture>
+                        <visible>!String.IsEmpty(VideoPlayer.AudioCodec)</visible>
+                    </control>  
+			<control type="image">
+                     <left>1750</left>
+                <top>540</top>
+                <width>120</width>
+                <height>70</height>
+              	     <texture colordiffuse="fff0f0f0" fallback="fallback.png">source/$INFO[VideoPlayer.VideoCodec].png</texture>
+                        <visible>!String.IsEmpty(VideoPlayer.VideoCodec )</visible>
+                    </control>  
+			<control type="label" id="909">
+						<posx>1450</posx>
+						<posy>120</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-25</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						<label>$INFO[VideoPlayer.Time]/$INFO[VideoPlayer.Duration]</label>
+			</control>
+
+			<control type="label" id="202">
+						<posx>1350</posx>
+						<posy>50</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-30</font>
+						<textcolor>lightblue</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						
+			</control>
+			<control type="videowindow" id="5002">
+				  <description>My first video control</description>
+				  <left>1310</left>
+				  <top>80</top>
+				  <width>600</width>
+				  <height>600</height>
+			
+			</control>
+
+			<control type="image" id="102">
+				<description>hour image</description>
+				<posx>1340</posx>
+				<posy>620</posy>
+				<width>80</width>
+				<height>80</height>
+				
+				<!-- <texture border="20">hour.gif</texture>        -->
+			</control>
+			<control type="label" id="505">
+						<posx>1600</posx>
+						<posy>1000</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-30</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						<label></label>
+			</control>
+			
+			<control type="textbox" id="2">
+			   <description>My first text box control</description>
+				   <left>1310</left>
+				   <top>660</top>
+				   <width>595</width>
+				   <height>250</height>
+				   <visible>true</visible>
+				   <colordiffuse>FFFFFFFF</colordiffuse>
+				   <font>font-24</font>
+				   
+				   <textcolor>FFFFFFFF</textcolor>
+				   <pulseonselect></pulseonselect>
+				   
+				   <scrolltime>1500</scrolltime>
+				   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+				   <label>Loading..</label>
+				   <align>left</align>
+			</control>
+			<control type="label" id="999">
+						<posx>1310</posx>
+						<posy>920</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<label>Results here..</label>
+						<label></label>
+			</control>
+			<control type="label" id="888">
+						<posx>1310</posx>
+						<posy>960</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<label>Results here..</label>
+						<label></label>
+			</control>
+			
+			<control type="label" id="777">
+						<posx>1310</posx>
+						<posy>1005</posy>
+						<width>1280</width>
+						<height>60</height>
+						<font>font-24</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<label>Results here..</label>
+						<label></label>
+			</control>
+			
+			<control type="label" id="606">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						<label></label>
+			</control>
+			
+			<control type="label" id="303">
+						<posx>1600</posx>
+						<posy>1000</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-40</font>
+						<textcolor>red</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						
+						<label></label>
+			</control>
+
+			<control type="list" id="3000">
+				<description>List to hold 'buttons'</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1800</width>
+				<height>1128</height>
+				<onright>105</onright>
+				<onleft>3001</onleft>  
+				<pagecontrol>105</pagecontrol>
+				<itemlayout width="1800" height="200">                
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1300</width>
+						<height>200</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>200</width>
+						<height>200</height>
+						<visible>String.IsEqual(ListItem.Property(collection),yes)</visible>
+						
+						<texture background="true">$INFO[ListItem.Property(image_collection)]</texture>
+									
+					</control>
+					
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),4k)</visible>
+						<texture>4k.png</texture>
+						
+									
+					</control>
+					
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),1080)</visible>
+						<texture>1080.png</texture>
+						
+									
+					</control>
+					
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),720)</visible>
+						<texture>720.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),480)</visible>
+						<texture>480.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),360)</visible>
+						<texture>360.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),unk)</visible>
+						<texture>unk.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>800</posx>
+						<posy>10</posy>
+						<width>50</width>
+						<height>50</height>
+						<visible>String.IsEqual(ListItem.Property(rd),100)</visible>
+						<texture>rd.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>900</posx>
+						<posy>10</posy>
+						<width>60</width>
+						<height>60</height>
+						<visible>String.IsEqual(ListItem.Property(magnet),100)</visible>
+						<texture>magnet.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>900</posx>
+						<posy>10</posy>
+						<width>60</width>
+						<height>60</height>
+						<visible>String.IsEqual(ListItem.Property(magnet),200)</visible>
+						<texture>magnet2.png</texture>
+						
+									
+					
+					</control>
+					<control type="image">
+						<posx>800</posx>
+						<posy>10</posy>
+						<width>70</width>
+						<height>30</height>
+						<visible>String.IsEqual(ListItem.Property(history),100)</visible>
+						<texture>watched6.png</texture>
+						
+									
+					</control>
+				   <control type="label">
+						
+						<posx>20</posx>
+						<posy>120</posy>
+						<width>1130</width>
+						<height>38</height>
+						<font>font-24</font>
+			
+						<textcolor>white</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<info>ListItem.Label</info>
+					</control>
+				<!-- [server/] -->
+<!-- 				  <control type="image">
+						<posx>960</posx>
+						<posy>40</posy>
+						<width>50</width>
+						<height>50</height>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<texture>server.png</texture>
+						
+									
+					</control> -->
+				   <control type="label">
+						<posx>1010</posx>
+						<posy>10</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(server)</info>
+				   </control>
+				   
+				   <!-- [pre/] -->
+				   <!-- [pre/] -->
+				   
+					
+				   <control type="label">
+						<posx>135</posx>
+						<posy>20</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(pre)</info>
+				   </control>
+				   				   <!-- [supply/] -->
+				   
+				   <control type="label">
+						<posx>220</posx>
+						<posy>20</posy>
+						<width>900</width>
+						<height>138</height>
+						<font>font-25</font>
+						<scrollspeed>20</scrollspeed>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<info>ListItem.Property(supply)</info>
+				   </control>
+				    <!-- [size/] -->
+<!-- 				   <control type="image">
+						<posx>1010</posx>
+						<posy>60</posy>
+						<width>40</width>
+						<height>40</height>
+						
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<texture>size.png</texture>
+						
+									
+					</control> -->
+				   <control type="label">
+						<posx>1150</posx>
+						<posy>60</posy>
+						<width>220</width>
+						<height>38</height>
+						<font>font-25</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(size)</info>
+				   </control>
+				   
+				   
+			   </itemlayout>
+	
+			   <focusedlayout width="1800" height="200">
+
+					
+					<control type="image">
+						<visible>Control.HasFocus(3000)</visible>
+						<posx>-20</posx>
+						<posy>0</posy>
+						<width>1350</width>
+						<height>200</height>                                        
+						<texture>button.png</texture>
+					<colordiffuse>55FFFFFF</colordiffuse> -->
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>200</width>
+						<height>200</height>
+						<visible>String.IsEqual(ListItem.Property(collection),yes)</visible>
+						
+						<texture background="true">$INFO[ListItem.Property(image_collection)]</texture>
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),4k)</visible>
+						<texture>4k.png</texture>
+						
+									
+					</control>
+					
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),1080)</visible>
+						<texture>1080.png</texture>
+						
+									
+					</control>
+					
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),720)</visible>
+						<texture>720.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),480)</visible>
+						<texture>480.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),360)</visible>
+						<texture>360.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>20</posx>
+						<posy>20</posy>
+						<width>100</width>
+						<height>100</height>
+						<visible>String.IsEqual(ListItem.Property(Quality),unk)</visible>
+						<texture>unk.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>800</posx>
+						<posy>10</posy>
+						<width>50</width>
+						<height>50</height>
+						<visible>String.IsEqual(ListItem.Property(rd),100)</visible>
+						<texture>rd.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>900</posx>
+						<posy>10</posy>
+						<width>60</width>
+						<height>60</height>
+						<visible>String.IsEqual(ListItem.Property(magnet),100)</visible>
+						<texture>magnet.png</texture>
+						
+									
+					</control>
+					<control type="image">
+						<posx>900</posx>
+						<posy>10</posy>
+						<width>60</width>
+						<height>60</height>
+						<visible>String.IsEqual(ListItem.Property(magnet),200)</visible>
+						<texture>magnet2.png</texture>
+						
+									
+					
+					</control>
+					<control type="image">
+						<posx>800</posx>
+						<posy>10</posy>
+						<width>70</width>
+						<height>30</height>
+						<visible>String.IsEqual(ListItem.Property(history),100)</visible>
+						<texture>watched6.png</texture>
+						
+									
+					</control>
+				   <control type="label">
+						
+						<posx>20</posx>
+						<posy>120</posy>
+						<width>1130</width>
+						<height>38</height>
+						<font>font-24</font>
+			
+						<textcolor>white</textcolor>
+						<!-- <aligny>center</aligny>		     -->
+						<align>left</align>
+						<info>ListItem.Label</info>
+					</control>
+				<!-- [server/] -->
+<!-- 				  <control type="image">
+						<posx>960</posx>
+						<posy>40</posy>
+						<width>50</width>
+						<height>50</height>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<texture>server.png</texture>
+						
+									
+					</control> -->
+				   <control type="label">
+						<posx>1010</posx>
+						<posy>10</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(server)</info>
+				   </control>
+				   
+				   <!-- [pre/] -->
+				   <!-- [pre/] -->
+				   
+					
+				   <control type="label">
+						<posx>135</posx>
+						<posy>20</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-24</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(pre)</info>
+				   </control>
+				   				   <!-- [supply/] -->
+				   
+				   <control type="label">
+						<posx>220</posx>
+						<posy>20</posy>
+						<width>900</width>
+						<height>138</height>
+						<font>font-25</font>
+						<scrollspeed>20</scrollspeed>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<info>ListItem.Property(supply)</info>
+				   </control>
+				    <!-- [size/] -->
+<!-- 				   <control type="image">
+						<posx>1010</posx>
+						<posy>60</posy>
+						<width>40</width>
+						<height>40</height>
+						
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<texture>size.png</texture>
+						
+									
+					</control> -->
+				   <control type="label">
+						<posx>1150</posx>
+						<posy>60</posy>
+						<width>220</width>
+						<height>38</height>
+						<font>font-25</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>left</align>
+						<visible>String.IsEqual(ListItem.Property(server_v),100)</visible>
+						<info>ListItem.Property(size)</info>
+				   </control>
+				</focusedlayout>
+			</control>  
+			<control type="scrollbar" id="105">
+                <left>1295</left>
+                <top>70</top>
+                <width>20</width>
+                <height>1000</height>
+                
+                <visible>true</visible>
+                <texturesliderbackground>Button/scrollbar-V-background.png</texturesliderbackground>
+                <texturesliderbar colordiffuse="red">Button/scrollbar-V.png</texturesliderbar>
+                <texturesliderbarfocus colordiffuse="FF12B2E7">Button/scrollbar-V-focus.png</texturesliderbarfocus>
+                <orientation>vertical</orientation>
+                <showonepage>true</showonepage>
+                <onup>3000</onup>
+				
+                <ondown>3000</ondown>
+                <onleft>3000</onleft>
+                <onright>3001</onright>
+				<visible>!Player.Playing</visible>
+            </control>
+			<control type="button" id="3001">
+				<description>Close Window button</description>
+				<posx>1800</posx>
+				<posy>5</posy>
+				<width>80</width>
+				<height>50</height>
+				<label>-</label>
+				<font>-</font>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<visible>system.getbool(input.enablemouse)</visible>			
+				<onup>3000</onup>
+				<ondown>3000</ondown>
+				<onright>3000</onright>
+				<onleft>105</onleft>  
+			</control>	
+	    </control>
+    </controls>
+</window>

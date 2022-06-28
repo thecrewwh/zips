@@ -1,0 +1,318 @@
+
+<window>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+     </coordinates>
+	<animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+
+    <controls>
+
+		<control type="group" id="5000">
+		    <posx>0</posx>
+			<posy>0</posy> 
+
+			<control type="image">
+				<description>Background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>2042</width>
+				<height>0</height>
+				<texture border="20">DialogBack.png</texture>       
+			</control>
+			<control type="image" id="5001">
+				<description>Background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>100%</width>
+				<height>100%</height>
+				<colordiffuse>39999999</colordiffuse>
+				
+			</control>
+			<control type="image" id="101">
+                <left>1310</left>
+                <top>180</top>
+                <width>600</width>
+                <height>400</height>
+            </control>
+			<control type="textbox" id="2">
+			   <description>My first text box control</description>
+				   <left>1340</left>
+				   <top>600</top>
+				   <width>550</width>
+				   <height>600</height>
+				   <visible>true</visible>
+				   <colordiffuse>FFFFFFFF</colordiffuse>
+				   <font>font-28</font>
+				   
+				   <textcolor>FFFFFFFF</textcolor>
+				   <pulseonselect></pulseonselect>
+				   <pagecontrol>13</pagecontrol>
+				   <scrolltime>200</scrolltime>
+				   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+				   <label>Text to display goes here [CR] next line...</label>
+				   <align>right</align>
+				   
+			</control>
+			<control type="label" id="1020">
+                <description>header label</description>
+                <posx>1900</posx>
+                <posy>40</posy>
+                <width>950</width>
+                <height>40</height>
+                <font>font-28</font>
+				<textcolor>coral</textcolor>
+                <label></label>
+                <align>right</align>
+                <aligny>center</aligny>
+				<rotation>90</rotation>
+            </control>
+			
+			<control type="label" id="1021">
+                <description>header label</description>
+                <posx>1900</posx>
+                <posy>80</posy>
+                <width>950</width>
+                <height>40</height>
+                <font>font-28</font>
+				<textcolor>deepskyblue</textcolor>
+                <label></label>
+                <align>right</align>
+                <aligny>center</aligny>
+            </control>
+			
+			<control type="list" id="3000">
+				<description>List to hold 'buttons'</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1300</width>
+				<height>1128</height>
+				<onright>105</onright>
+				<onleft>3001</onleft>  
+				<pagecontrol>105</pagecontrol>
+				<itemlayout width="1300" height="238">                
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1300</width>
+						<height>238</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+				  <control type="image">
+						<posx>990</posx>
+						<posy>50</posy>
+						<width>350</width>
+						<height>180</height>
+						<visible>true</visible>
+						<texture>$INFO[ListItem.Property(image)]</texture>
+						
+									
+					</control>
+
+
+					<control type="label">
+						
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-28</font>
+			
+						<textcolor>coral</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Property(title_type)</info>
+					</control>
+					
+				   <control type="label">
+						
+						<posx>-350</posx>
+						<posy>30</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-28</font>
+			
+						<textcolor>deepskyblue</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Label</info>
+					</control>
+
+				   <!-- [pre/] -->
+				   <control type="image">
+						<posx>870</posx>
+						<posy>85</posy>
+						<width>50</width>
+						<height>40</height>
+						<visible>String.IsEqual(ListItem.Property(pre),100)</visible>
+						<texture>pre.png</texture>
+						
+									
+					</control>
+				   <control type="label">
+						<posx>470</posx>
+						<posy>80</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>fontContextMenu</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Property(pre)</info>
+				   </control>
+
+				   <control type="textbox">
+				   <description>My first text box control</description>
+					   <left>0</left>
+					   <top>70</top>
+					   <width>800</width>
+					   <height>170</height>
+					   <visible>true</visible>
+					   <colordiffuse>FFFFFFFF</colordiffuse>
+					   <font>font-28</font>
+					   
+					   <textcolor>FFFFFFFF</textcolor>
+					   <pulseonselect></pulseonselect>
+					   <pagecontrol>13</pagecontrol>
+					   <scrolltime>200</scrolltime>
+					   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+					   <label>$INFO[ListItem.Property(description)]</label>
+					   <align>right</align>
+					   
+				</control>
+
+				</itemlayout>
+			   <focusedlayout width="1300" height="238">
+
+					
+					<control type="image">
+						<visible>Control.HasFocus(3000)</visible>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1300</width>
+						<height>238</height>                                        
+						<texture border="5" fallback="button-focus2.png">button-focus.png</texture>
+					</control>
+				  <control type="image">
+						<posx>990</posx>
+						<posy>50</posy>
+						<width>350</width>
+						<height>180</height>
+						<visible>true</visible>
+						<texture>$INFO[ListItem.Property(image)]</texture>
+						
+									
+					</control>
+
+
+					<control type="label">
+						
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-28</font>
+			
+						<textcolor>coral</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Property(title_type)</info>
+					</control>
+					
+				   <control type="label">
+						
+						<posx>-350</posx>
+						<posy>30</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>font-28</font>
+			
+						<textcolor>deepskyblue</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Label</info>
+					</control>
+
+				   <!-- [pre/] -->
+				   <control type="image">
+						<posx>870</posx>
+						<posy>85</posy>
+						<width>50</width>
+						<height>40</height>
+						<visible>String.IsEqual(ListItem.Property(pre),100)</visible>
+						<texture>pre.png</texture>
+						
+									
+					</control>
+				   <control type="label">
+						<posx>470</posx>
+						<posy>80</posy>
+						<width>1280</width>
+						<height>38</height>
+						<font>fontContextMenu</font>
+						<textcolor>FF999999</textcolor>
+						<aligny>center</aligny>		    
+						<align>right</align>
+						<info>ListItem.Property(pre)</info>
+				   </control>
+
+				   <control type="textbox">
+				   <description>My first text box control</description>
+					   <left>0</left>
+					   <top>70</top>
+					   <width>800</width>
+					   <height>170</height>
+					   <visible>true</visible>
+					   <colordiffuse>FFFFFFFF</colordiffuse>
+					   <font>font-28</font>
+					   
+					   <textcolor>FFFFFFFF</textcolor>
+					   <pulseonselect></pulseonselect>
+					   <pagecontrol>13</pagecontrol>
+					   <scrolltime>200</scrolltime>
+					   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+					   <label>$INFO[ListItem.Property(description)]</label>
+					   <align>right</align>
+				</control>
+				</focusedlayout>
+			</control>  
+			<control type="scrollbar" id="105">
+                <left>1280</left>
+                <top>70</top>
+                <width>30</width>
+                <height>1000</height>
+                
+                <visible>true</visible>
+                <texturesliderbackground>Button/scrollbar-V-background.png</texturesliderbackground>
+                <texturesliderbar>Button/scrollbar-V.png</texturesliderbar>
+                <texturesliderbarfocus colordiffuse="FF12B2E7">Button/scrollbar-V-focus.png</texturesliderbarfocus>
+                <orientation>vertical</orientation>
+                <showonepage>true</showonepage>
+                <onup>3000</onup>
+				
+                <ondown>3000</ondown>
+                <onleft>3000</onleft>
+                <onright>3001</onright>
+            </control>
+			<control type="button" id="3001">
+				<description>Close Window button</description>
+				<posx>1800</posx>
+				<posy>5</posy>
+				<width>80</width>
+				<height>50</height>
+				<label>-</label>
+				<font>-</font>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<visible>system.getbool(input.enablemouse)</visible>			
+				<onup>3000</onup>
+				<ondown>3000</ondown>
+				<onright>3000</onright>
+				<onleft>105</onleft>  
+			</control>	
+	    </control>
+    </controls>
+</window>

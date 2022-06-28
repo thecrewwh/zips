@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <zorder>3</zorder>
+    <animation type="WindowOpen">
+        <effect type="slide" tween="back" easing="out" start="0,0" end="0,200" center="960,930" time="240" />
+    </animation>
+    <animation type="WindowClose">
+        <effect type="slide" tween="tween" easing="in" start="0,200" end="0,0" center="960,930" time="100" />
+    </animation>
+    <controls>
+        <control type="group">
+            <posx>1160</posx>
+            <posy>-200</posy>
+            <control type="image" description="background">
+                <width>620</width>
+                <height>134</height>
+                <texture border="44,0,44,0">notification.png</texture>
+            </control>
+            <control type="label" description="Message">
+                <posx>30</posx>
+                <height>40</height>
+                <width>960</width>
+                <scroll>true</scroll>
+                <align>center</align>
+                <textcolor>Highlight</textcolor>
+                <label></label>
+            </control>
+            <control type="image" id="400" description="File Icon">
+                <posx>11</posx>
+                <posy>18</posy>
+                <width>98</width>
+                <height>98</height>
+                <texture>icon.png</texture>
+            </control>
+            <control type="label" id="401" description="Heading">
+                <posx>140</posx>
+                <posy>13</posy>
+                <height>40</height>
+                <width>570</width>
+                <scroll>true</scroll>
+                <textcolor>lightblue</textcolor>
+            </control>
+            <control type="label" id="402" description="Message">
+                <posx>140</posx>
+                <posy>50</posy>
+                <height>40</height>
+                <width>550</width>
+                <scroll>true</scroll>
+                <textcolor>lightblue</textcolor>
+            </control>
+        </control>
+    </controls>
+</window>

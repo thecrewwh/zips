@@ -1,0 +1,252 @@
+
+<window>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+     </coordinates>
+	<animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+
+    <controls>
+		<control type="group" id="1000">
+			<posx>0</posx>
+			<posy>0</posy> 
+			<control type="image">
+					<description>Background image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>100%</width>
+					<height>100%</height>
+					
+					<texture border="20">fanart-fox-gold-final.png</texture>       
+				</control>
+				
+				<control type="image" id="1">
+					<posx>0</posx>
+					<posy>-60</posy>
+					<width>100%</width>
+					<height>100%</height>
+					<colordiffuse>9ff0f0f0</colordiffuse>
+					<animation effect="zoom" start="50" end="220" time="60000" tween="sine" easing="inout" center="800,500" condition="true" loop="true">Conditional</animation>
+					<animation effect="zoom" start="220" end="50" time="60000" tween="sine" easing="inout" center="800,300" condition="true" loop="true">Conditional</animation>
+					
+					<visible>true</visible>
+				</control>
+				
+				
+				<control type="videowindow" id="5001"><!--Trailer-->
+					  <description>My first video control</description>
+					  <posx>300</posx>
+					  <posy>50</posy>
+					  <width>1350</width>
+					  <height>930</height>
+					  <visible>true</visible>
+				</control>
+			<control type="label"  id="6006"><!--Resuls-->
+				<visible>true</visible>
+				<posx>-1100</posx>
+				<posy>150</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-12</font>
+			</control>
+			
+			<control type="image" id="6002">
+					<posx>300</posx>
+					<posy>200</posy>
+					<width>200</width>
+					<height>300</height>
+					<animation effect="zoom" start="100" end="200" time="30000" tween="cubic" easing="inout" pulse="true" reversible="true" condition="true">Conditional</animation>
+					<visible>true</visible>
+				</control>
+			
+			<control type="label"  id="6007"><!--Resuls-->
+				<visible>true</visible>
+				<posx>-1100</posx>
+				<posy>550</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-12</font>
+			</control>
+			
+			<control type="image" id="6003">
+					<posx>300</posx>
+					<posy>600</posy>
+					<width>200</width>
+					<height>300</height>
+					<animation effect="zoom" start="100" end="200" time="30000" tween="cubic" easing="inout" pulse="true" reversible="true" condition="true">Conditional</animation>
+					<visible>true</visible>
+				</control>
+			
+			<control type="label"  id="6008"><!--Resuls-->
+				<visible>true</visible>
+				<posx>1050</posx>
+				<posy>150</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-12</font>
+			</control>
+			
+			<control type="image" id="6004">
+					<posx>1400</posx>
+					<posy>200</posy>
+					<width>200</width>
+					<height>300</height>
+					<animation effect="zoom" start="100" end="200" time="30000" tween="cubic" easing="inout" pulse="true" reversible="true" condition="true">Conditional</animation>
+					<visible>true</visible>
+				</control>
+			<control type="label"  id="6009"><!--Resuls-->
+				<visible>true</visible>
+				<posx>1050</posx>
+				<posy>550</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-12</font>
+			</control>
+			<control type="image" id="6005">
+					<posx>1400</posx>
+					<posy>600</posy>
+					<width>200</width>
+					<height>300</height>
+					<animation effect="zoom" start="100" end="200" time="30000" tween="cubic" easing="inout" pulse="true" reversible="true" condition="true">Conditional</animation>
+					<visible>true</visible>
+				</control>
+			<control type="image" id="5002">
+					<posx>720</posx>
+					<posy>00</posy>
+					<width>500</width>
+					<height>200</height>
+					
+					
+					<visible>true</visible>
+				</control>
+			
+			
+			
+			
+			<control type="label"  id="10"><!--Resuls-->
+				<visible>true</visible>
+				<posx>0</posx>
+				<posy>830</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			<control type="image" id="5002">
+					<posx>1750</posx>
+					<posy>950</posy>
+					<width>200</width>
+					<height>150</height>
+					
+					<texture border="20">sonic.gif</texture>       
+					<visible>true</visible>
+				</control>
+				
+			<control type="progress" id="8">
+						<description>progress control</description>
+						<posx>610</posx>
+						<posy>880</posy>
+						<width>670</width>
+						<height>15</height>
+						
+						<texturebg  border="1,1,1,1">5.png</texturebg>
+						<midtexture  border="1,1,1,1">2.png</midtexture>
+						
+					<lefttexture>-</lefttexture>
+					<righttexture>-</righttexture>
+			</control>
+			
+			<control type="label"  id="9"><!--Progress Results-->
+				<visible>true</visible>
+				<posx>0</posx>
+				<posy>900</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			
+			
+			<control type="label"  id="14"><!--More results statitcs-->
+				<visible>true</visible>
+				<posx>0</posx>
+				<posy>950</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				<visible>!VideoPlayer.IsFullscreen</visible>
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			
+			
+			<control type="label"  id="11"><!--Time-->
+				<visible>true</visible>
+				<posx>0</posx>
+				<posy>1000</posy>
+				<width>auto</width>
+				<height>80</height>
+				<align>center</align>
+				<visible>!VideoPlayer.IsFullscreen</visible>
+				<textcolor>lightgreen</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			<control type="image" id="3003"><!--Banner-->
+					<posx>0</posx>
+					<posy>0</posy>
+					<align>center</align>
+					<width>100%</width>
+					<height>100</height>
+					
+					
+					<visible>true</visible>
+				</control>
+			
+			<control type="image" id="3004"><!--Banner-->
+					<posx>0</posx>
+					<posy>980</posy>
+					<align>center</align>
+					<width>100%</width>
+					<height>100</height>
+					<visible>true</visible>
+					
+					
+			</control>
+			<control type="button" id="3002">
+					<description>Close Window button</description>
+					<posx>30</posx>
+					<posy>1000</posy>
+					<width>200</width>
+					<height>60</height>
+					<label>-</label>
+					<font>-</font>
+					<onclick>PreviousMenu</onclick>
+					<texturefocus>bclose_dark.png</texturefocus>
+					<texturenofocus>bclose.jpg</texturenofocus>
+					
+					
+				</control>	
+		</control>
+    </controls>
+</window>

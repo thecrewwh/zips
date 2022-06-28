@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+		
+		
+		<setting id="theme" type="enum" label="32205" values="Ghost"  default="0" />
+		
+		<setting id="num_p"  type="number"  label="32206" visible="true" default="1"/>
+		<setting id="order_networks" type="enum" label="32207" lvalues="32208|32209|32210"  default="0" />
+		<setting id="dp" label="32211" type="bool" default="true" />
+	
+		<setting id="size_limit"  type="number"  label="32212"  default="100"/>
+		<setting id="save_time"  type="number"  label="32213" visible="true" default="72"/>
+
+		<setting id="better_look" label="32215" type="bool"  default="true" />
+		<setting id="show_collection" label="32303" type="bool"  default="true" />
+		
+		<setting id="display_lock" label="32216" type="bool"  default="false" />
+		
+		<setting id="adults" label="32217" type="bool"  default="true" />
+		
+		
+		<setting label="[COLOR lightblue][I]$ADDON[plugin.video.ghost 32220][/I][/COLOR]" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=163&url=www)" />
+		
+		
+		<setting id="rd.auth" type="text" default="" visible="hidden" />
+		<setting id="rd.refresh" type="text" default="" visible="hidden" />
+		<setting id="rd.client_id" type="text" default="" visible="hidden" />
+		<setting id="rd.expiry" type="text" default="0" visible="hidden"/>
+		<setting id="rd.secret" type="text" default="" visible="hidden" />
+		<setting id="ghaddr" type="text" default="" visible="hidden" />
+		<setting id="premiumize.token" type="text" default="" visible="false" />
+		<setting id="alldebrid.token" type="text" default="" visible="false" />
+		<setting id="alldebrid.username" type="text" default="" visible="false" />
+		
+
+	</category>
+	
+	<category label="$ADDON[plugin.video.ghost 32027]">
+		<setting id="s_traker_style" label="32311" type="bool"  default="false" />
+		<setting id="show_over" label="32312" type="bool"  default="false" />
+		<setting id="time_to_save" label="32214" type="number" default="75" />
+		<setting label="32218" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=147&url=www)" />
+		<setting label="32219" option="close" type="action"   action="RunPlugin(plugin://plugin.video.ghost?mode=157&url=False)"/>
+		<setting label="trakt access token" id="trakt_access_token" type="text" visible="false" />
+		<setting label="trakt refresh token" id="trakt_refresh_token" type="text" visible="false" />
+		<setting label="trakt refresh token" id="trakt_expires_at" type="text" visible="false" />
+		
+	</category>
+	<category label="32221">
+		<setting label="[COLOR khaki][I]$ADDON[plugin.video.ghost 32124][/I][/COLOR]" type="lsep"/>
+		<setting id="garbage" type="text" default="" visible="false" />
+		<setting label="32222" type="lsep"/>
+		<setting id="max_q" type="enum" label="32223" values="720|1080|2160"  default="2" />
+		<setting id="min_q" type="enum" label="32224" values="all|720|1080|2160"  default="0" />
+		
+		<setting label="32225" type="lsep"/>
+		<setting id="encoding_filter" type="bool" label="32226" default="false" />
+		<setting id="3d" type="bool" label="32227" default="false" visible="eq(-1,true)"/>
+		<setting id="hdvc" type="bool" label="32228" default="true" visible="eq(-2,true)"/>
+		<setting id="low_q" type="bool" label="32229" default="false" visible="eq(-3,true)"/>
+		
+		<setting label="[COLOR khaki][I]$ADDON[plugin.video.ghost 32099][/I][/COLOR]" type="lsep"/>
+		<setting id="garbage2" type="text" default="" visible="false" />
+		<setting label="32222" type="lsep"/>
+		<setting id="max_q_tv" type="enum" label="32223" values="720|1080|2160"  default="2" />
+		<setting id="min_q_tv" type="enum" label="32224" values="all|720|1080|2160"  default="0" />
+		
+		<setting label="32225" type="lsep"/>
+		<setting id="encoding_filter_tv" type="bool" label="32226" default="false" />
+		<setting id="3d_tv" type="bool" label="32227" default="false" visible="eq(-1,true)"/>
+		<setting id="hdvc_tv" type="bool" label="32228" default="true" visible="eq(-2,true)"/>
+		<setting id="low_q_tv" type="bool" label="32229" default="false" visible="eq(-3,true)"/>
+		<setting id="filter_non_e" type="bool" label="32230" default="true" />
+		
+	</category>
+	
+	<category label="32231">
+		<setting id="debrid_use" label="32232" type="bool"  default="true" />
+		<setting id="debrid_select" type="enum" label="32233" values="Real-Debrid|Premiumize|ALL-Debrid"  default="0" />
+		<setting label="32234" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=137&url=www)" visible="eq(-1,0)"/>
+		<setting label="32235" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=138&url=www)" visible="eq(-2,0)"/>
+		
+		<setting label="32236" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=139&url=www)" visible="eq(-3,1)"/>
+		<setting label="32237" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=140&url=www)" visible="eq(-4,1)"/>
+		
+		<setting id="premiumize.addToCloud" type="bool" subsetting="true" label="Store resolved items in cloud" default="false" visible="eq(-5,1)" />
+		<setting id="premiumize.transcoded" type="bool" subsetting="true" label="Prefer Transcoded Files" default="false" visible="eq(-6,1)" />
+		
+		<setting label="32239" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=141&url=www)" visible="eq(-7,2)"/>
+		<setting label="32240" option="close" type="action" action="RunPlugin(plugin://plugin.video.ghost?mode=142&url=www)" visible="eq(-8,2)"/>
+		
+	</category>
+	
+	
+	<category label="32241">
+		<setting id="nextup_episode" label="32241" type="bool"  default="true" />
+		<setting id="play_nextup_wait" label="32242" type="bool"  default="false" visible="eq(-1,true)"/>
+		<setting id="window" label="32243" type="number" default="30" visible="eq(-2,true)"/>
+	
+		<setting id="before_end2" label="32244" type="number"  default="3" visible="eq(-3,true)"/>
+		<setting id="nextup_movie" label="32245" type="bool"  default="true" />
+		<setting id="movie_window" label="32246" type="number" default="300" visible="eq(-1,true)"/>
+	</category>
+	
+	<category label="32247">
+		<setting id="cast" label="32248" type="bool"  default="true" />
+		<setting id="s3d_scrape" label="32178" type="bool"  default="true" />
+		<setting id="play_trailer" label="32167" type="bool"  default="true" />
+		<setting id="settings_content" label="32168" type="bool"  default="true" />
+		<setting id="queue_item" label="32169" type="bool"  default="true" />
+		<setting id="trakt_manager" label="32304" type="bool"  default="true" />
+		<setting id="trakt_watched" label="32164" type="bool"  default="true" />
+		<setting id="trakt_unwatched" label="32165" type="bool"  default="true" />
+		<setting id="openinfo" label="Openinfo" type="bool"  default="true" />
+		<setting id="remove_resume_time" label="32173" type="bool"  default="true" />
+		<setting id="browse_series" label="32174" type="bool"  default="true" />
+		<setting id="remove_resume_point" label="32175" type="bool"  default="true" />
+		<setting id="clear_Cache" label="32176" type="bool"  default="true" />
+		<setting id="set_view_type" label="32177" type="bool"  default="true" />
+		<setting id="Release_Date_item" label="Release Date" type="bool"  default="true" />
+		
+	</category>
+	
+	<category label="32249">
+		<setting label="32124" type="lsep"/>
+		<setting id="one_click" label="32249" type="bool"  default="false" />
+		
+		<setting id="max_quality" type="enum" label="32223" values="2160|1080|720|any"  default="3" visible="eq(-1,true)"/>
+		<setting id="min_quality" type="enum" label="32224" values="2160|1080|720|any"  default="2" visible="eq(-2,true)"/>
+		
+		<setting label="32099" type="lsep"/>
+		<setting id="one_click_tv" label="32249" type="bool"  default="false" />
+		
+		<setting id="max_quality_tv" type="enum" label="32223" values="2160|1080|720|any"  default="3" visible="eq(-1,true)"/>
+		<setting id="min_quality_tv" type="enum" label="32224" values="2160|1080|720|any"  default="2" visible="eq(-2,true)"/>
+
+
+	</category>
+	<category label="32251">
+		<setting id="time_s"  type="number"  label="32252" visible="true" default="15"/>
+		<setting label="32301" type="lsep"/>
+		
+		<setting label="32253"  type="action" option="close" action="RunPlugin(plugin://plugin.video.ghost?mode=173&url=movie&name=enable)" />
+		<setting label="32254"  type="action" option="close" action="RunPlugin(plugin://plugin.video.ghost?mode=173&url=movie&name=disable)" />
+		<setting id="fav_movie" type="text" label="32255" default="" />
+		
+		<!--Movie Sources-->
+
+		<setting id="1337x" label="1337x" type="bool"  default="true" />
+		<setting id="api" label="api" type="bool"  default="true" />
+		<setting id="bay" label="bay" type="bool"  default="true" />
+		<setting id="bitcq" label="bitcq" type="bool"  default="true" />
+		<setting id="bitlord" label="bitlord" type="bool"  default="true" />
+		<setting id="corn" label="corn" type="bool"  default="true" />
+		<setting id="dl" label="dl" type="bool"  default="true" />
+		<setting id="easynews" label="easynews [COLOR red](Paid)[/COLOR]" type="bool"  default="true" />
+		<setting id="extra" label="extra" type="bool"  default="true" />
+		<setting id="ez" label="ez" type="bool"  default="true" />
+		<setting id="ezio" label="ezio" type="bool"  default="true" />
+		<setting id="furk" label="furk [COLOR red](Paid)[/COLOR]" type="bool"  default="true" />
+		<setting id="glorls" label="glorls" type="bool"  default="true" />
+		<setting id="goo" label="goo [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="kass" label="kass" type="bool"  default="true" />
+		<setting id="magno" label="magno" type="bool"  default="true" />
+		<setting id="mags" label="mags" type="bool"  default="true" />
+		<setting id="monk" label="monk" type="bool"  default="true" />
+		<setting id="para" label="para" type="bool"  default="true" />
+		<setting id="qaz" label="qaz [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="shrss" label="shrss" type="bool"  default="true" />
+		<setting id="sky" label="sky" type="bool"  default="true" />
+		<setting id="snow" label="snow" type="bool"  default="true" />
+		<setting id="sol" label="sol" type="bool"  default="true" />
+		<setting id="solid" label="solid" type="bool"  default="true" />
+		<setting id="stbay" label="stbay" type="bool"  default="true" />
+		<setting id="thd" label="thd" type="bool"  default="true" />
+		<setting id="torio" label="torio" type="bool"  default="true" />
+		<setting id="torrz" label="torrz" type="bool"  default="true" />
+		<setting id="trpar" label="trpar" type="bool"  default="true" />
+		<setting id="tsdl" label="tsdl" type="bool"  default="true" />
+		<setting id="tse" label="tse" type="bool"  default="true" />
+		<setting id="wshd" label="wshd [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="yts" label="yts" type="bool"  default="true" />
+
+<!--End Movie Sources-->
+	</category>
+	<category label="Tv sources">
+		<setting label="32299" type="lsep"/>
+		<setting label="32253" type="action" option="close" action="RunPlugin(plugin://plugin.video.ghost?mode=173&url=tv&name=enable)" />
+		<setting label="32254" type="action" option="close" action="RunPlugin(plugin://plugin.video.ghost?mode=173&url=tv&name=disable)" />
+		<setting id="fav_tv" type="text" label="32255" default="" />
+		
+		<!--TV Sources-->
+
+		<setting id="1337x_tv" label="1337x" type="bool"  default="true" />
+		<setting id="api_tv" label="api" type="bool"  default="true" />
+		<setting id="bay_tv" label="bay" type="bool"  default="true" />
+		<setting id="bitcq_tv" label="bitcq" type="bool"  default="true" />
+		<setting id="bitlord_tv" label="bitlord" type="bool"  default="true" />
+		<setting id="corn_tv" label="corn" type="bool"  default="true" />
+		<setting id="dl_tv" label="dl" type="bool"  default="true" />
+		<setting id="easynews_tv" label="easynews [COLOR red](Paid)[/COLOR]" type="bool"  default="true" />
+		<setting id="extra_tv" label="extra" type="bool"  default="true" />
+		<setting id="ez_tv" label="ez" type="bool"  default="true" />
+		<setting id="ezio_tv" label="ezio" type="bool"  default="true" />
+		<setting id="furk_tv" label="furk [COLOR red](Paid)[/COLOR]" type="bool"  default="true" />
+		<setting id="glorls_tv" label="glorls" type="bool"  default="true" />
+		<setting id="goo_tv" label="goo [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="kass_tv" label="kass" type="bool"  default="true" />
+		<setting id="magno_tv" label="magno" type="bool"  default="true" />
+		<setting id="mags_tv" label="mags" type="bool"  default="true" />
+		<setting id="monk_tv" label="monk" type="bool"  default="true" />
+		<setting id="para_tv" label="para" type="bool"  default="true" />
+		<setting id="qaz_tv" label="qaz [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="shrss_tv" label="shrss" type="bool"  default="true" />
+		<setting id="sky_tv" label="sky" type="bool"  default="true" />
+		<setting id="snow_tv" label="snow" type="bool"  default="true" />
+		<setting id="sol_tv" label="sol" type="bool"  default="true" />
+		<setting id="solid_tv" label="solid" type="bool"  default="true" />
+		<setting id="stbay_tv" label="stbay" type="bool"  default="true" />
+		<setting id="thd_tv" label="thd" type="bool"  default="true" />
+		<setting id="torio_tv" label="torio" type="bool"  default="true" />
+		<setting id="torrz_tv" label="torrz" type="bool"  default="true" />
+		<setting id="trpar_tv" label="trpar" type="bool"  default="true" />
+		<setting id="tsdl_tv" label="tsdl" type="bool"  default="true" />
+		<setting id="tse_tv" label="tse" type="bool"  default="true" />
+		<setting id="wshd_tv" label="wshd [COLOR lightblue](Free)[/COLOR]" type="bool"  default="true" />
+		<setting id="yts_tv" label="yts" type="bool"  default="true" />
+
+<!--End TV Sources-->
+	</category>
+	<category label="32256">
+		<setting label="Furk" type="lsep" />
+		<setting id="provider.furk" type="bool" label="32257" default="false" />
+		
+        <setting id="furk_login" type="text" label="32258" default="" />
+        <setting id="furk_password" type="text" label="32259" default="" />
+        <setting id="furk_api_key" type="text" label="32260" default="" />
+        <setting id="furk.mod.level" label="32261" type="labelenum" default="No" lvalues="32262|32263|32264"  subsetting="true" />
+        <setting label="Easynews" type="lsep" />
+		<setting id="provider.easy" type="bool" label="32265" default="false" />
+        <setting id="easynews.user" type="text" label="32258" default="" />
+        <setting id="easynews.password" type="text" label="32259" default="" />
+        <setting id="easynews_moderation" label="easynews Exclude Adult Results" type="bool" default="true" subsetting="true" />
+
+		
+	</category>
+	<category label="32266">
+		<setting id="po_watch" label="32267" type="bool"  default="false" />
+		<setting id="simple_info" label="32268" type="bool"  default="false" />
+		<setting id="trakt_info" label="32306" type="bool"  default="true" />
+		
+		<setting id="new_play_window" label="new_play_window" type="bool"  default="true" />
+		<setting id="clean_video_title" label="clean video title" type="bool"  default="false" />
+		
+		<setting type="lsep" label="[COLOR dodgerblue]EYE CANDY display feature[/COLOR]" />
+		<setting id="fancy_scrape" label="Eye candy display feature (trailers while you wait for results)" type="bool"  default="false" />
+		<setting id="eye_candy_style" type="enum" label="Eye candy style" values="Fancy|Clean"  default="1" visible="eq(-1,true)"/>
+		<setting id="video_in_sources_tv" label="Show trailer for tv shows" type="bool"  default="false"  visible="eq(-2,true)"/>
+		<setting id="video_in_sources" label="Show trailer for movies" type="bool"  default="false"  visible="eq(-3,true)"/>
+		<setting id="video_in_s_wait" label="Wait for trailer to end before you see results" type="bool"  default="false"  visible="eq(-4,true)"/>
+		<setting id="video_type_in_s" type="enum" label="Trailer content"  values="Recommended|Current Movie" default="1"  visible="eq(-5,true)"/>
+		<setting id="fanart_scraping" label="Show fanart in scraping" type="bool"  default="true" />
+		<setting id="sources_window_n" type="enum" label="Sources window style" values="Fancy|Clean|Panel"  default="1" />
+		<setting id="fanart_sources" label="Show fanart in sources" type="bool"  default="true" />
+		<setting id="add_colors" label="Add colors to results" type="bool"  default="true" />
+		<setting id="show_actors" label="Show actor in clean view(when no trailer)" type="bool"  default="true" />
+		
+	</category>
+	<category label="32269">
+		<setting id="s_traker" label="32023" type="bool"  default="false" />
+		<setting id="movie_world" label="32024" type="bool"  default="true" />
+		<setting id="tv_world" label="32025" type="bool"  default="true" />
+		<setting id="trakt_world" label="32026" type="bool"  default="false" />
+		<setting id="trakt" label="32027" type="bool"  default="true" />
+		<setting id="search" label="32020" type="bool"  default="true" />
+		<setting id="search_history" label="32021" type="bool"  default="false" />
+		<setting id="last_link_played" label="32022" type="bool"  default="false" />
+		<setting id="whats_new" label="32028" type="bool"  default="false" />
+		<setting id="resume_watching" label="32030" type="bool"  default="false" />
+		<setting id="my_rd_history" label="32031" type="bool"  default="false" />
+		<setting id="rd_Torrents" label="32032" type="bool"  default="false" />
+		<setting id="actor" label="32033" type="bool"  default="false" />
+		<setting id="scraper_check" label="32034" type="bool"  default="false" />
+		<setting id="settings" label="32029" type="bool"  default="true" />		
+		
+	</category>
+	<category label="Debug">
+		<setting id="debug" label="debug" type="bool"  default="false" />
+		<setting id="show_debug" type="bool" label="show_debug" default="false" />
+		<setting id="check_time" label="check_time" type="bool"  default="false" />
+		<setting id="stop_where" type="enum" label="stop_where" values="0|1|2|3|4|5|6|7|8|9"  default="0" />
+		<setting id="unfilter_test" type="text" label="Test" default="" />
+		<setting id="one_by_one" label="check servers one by one" type="bool"  default="false" />
+		<setting id="full_db" label="full_db" type="bool"  default="false" />
+	</category>
+
+	<category label="Subtitles">
+		
+        
+        <setting id="subtitles" type="bool" label="Enable subtitles" default="false" />
+        <setting type="sep" />
+        <setting id="subtitles.utf" type="bool" label="Convert subtitles to UTF-8" enable="!eq(-2,false)" default="false" />
+        <setting type="sep" />
+        <setting id="subtitles.lang.1" type="select" label="Primary Language" values="Afrikaans|Albanian|Arabic|Armenian|Basque|Bengali|Bosnian|Breton|Bulgarian|Burmese|Catalan|Chinese|Croatian|Czech|Danish|Dutch|English|Esperanto|Estonian|Finnish|French|Galician|Georgian|German|Greek|Hebrew|Hindi|Hungarian|Icelandic|Indonesian|Italian|Japanese|Kazakh|Khmer|Korean|Latvian|Lithuanian|Luxembourgish|Macedonian|Malay|Malayalam|Manipuri|Mongolian|Montenegrin|Norwegian|Occitan|Persian|Polish|Portuguese|Portuguese(Brazil)|Romanian|Russian|Serbian|Sinhalese|Slovak|Slovenian|Spanish|Swahili|Swedish|Syriac|Tagalog|Tamil|Telugu|Thai|Turkish|Ukrainian|Urdu" enable="!eq(-4,false)" default="English" />
+        <setting id="subtitles.lang.2" type="select" label="Secondary Language" values="Afrikaans|Albanian|Arabic|Armenian|Basque|Bengali|Bosnian|Breton|Bulgarian|Burmese|Catalan|Chinese|Croatian|Czech|Danish|Dutch|English|Esperanto|Estonian|Finnish|French|Galician|Georgian|German|Greek|Hebrew|Hindi|Hungarian|Icelandic|Indonesian|Italian|Japanese|Kazakh|Khmer|Korean|Latvian|Lithuanian|Luxembourgish|Macedonian|Malay|Malayalam|Manipuri|Mongolian|Montenegrin|Norwegian|Occitan|Persian|Polish|Portuguese|Portuguese(Brazil)|Romanian|Russian|Serbian|Sinhalese|Slovak|Slovenian|Spanish|Swahili|Swedish|Syriac|Tagalog|Tamil|Telugu|Thai|Turkish|Ukrainian|Urdu" enable="!eq(-5,false)" default="English" />
+       
+		<setting id="auto_subtitles" type="bool" label="Auto download first subtitles" default="true" enable="!eq(-6,false)"/>
+		<setting id="subs_window" label="Time to display the window (in secs)" type="number" default="30" enable="!eq(-7,false)"/>
+		<setting id="subs_width" label="Window width" type="number" default="400" enable="!eq(-8,false)"/>
+		<setting id="subs_hight" label="Window hight" type="number" default="700" enable="!eq(-9,false)"/>
+		<setting id="subs_px" label="Location X" type="number" default="10" enable="!eq(-10,false)"/>
+		<setting id="subs_py" label="Location Y" type="number" default="10" enable="!eq(-11,false)"/>
+    </category>
+	<category label="IMDB">
+		<setting type="lsep" label="Enter Userid without the ur" />
+		<setting id="imdb_user_0" type="text" label="User 1" default="" />
+		<setting id="imdb_user_1" type="text" label="User 2" default="" />
+		<setting id="imdb_user_2" type="text" label="User 3" default="" />
+		<setting id="imdb_user_3" type="text" label="User 4" default="" />
+		<setting id="imdb_user_4" type="text" label="User 5" default="" />
+		<setting id="imdb_user_5" type="text" label="User 6" default="" />
+		<setting id="imdb_user_6" type="text" label="User 7" default="" />
+		<setting id="imdb_user_7" type="text" label="User 8" default="" />
+		<setting id="imdb_user_8" type="text" label="User 9" default="" />
+		<setting id="imdb_user_9" type="text" label="User 10" default="" />
+		
+	</category>
+	
+</settings>

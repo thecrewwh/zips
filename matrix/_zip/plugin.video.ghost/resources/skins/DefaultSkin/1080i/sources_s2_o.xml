@@ -1,0 +1,196 @@
+
+<window>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+     </coordinates>
+	<animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+
+    <controls>
+		<control type="group" id="1000">
+			<posx>0</posx>
+			<posy>0</posy> 
+			<control type="image">
+					<description>Background image</description>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>100%</width>
+					<height>100%</height>
+					<texture border="20">DialogBack.png</texture>       
+				</control>
+
+				<control type="videowindow" id="5001">
+					  <description>My first video control</description>
+					  <left>-20</left>
+					  <top>-90</top>
+					  <width>1150</width>
+					  <height>730</height>
+					  <visible>true</visible>
+				</control>
+				
+			<control type="image" id="1">
+					<posx>30</posx>
+					<posy>30</posy>
+					<width>900</width>
+					<height>600</height>
+					<visible>!Player.Playing</visible>
+					<aspectratio scalediffuse="false">scale</aspectratio>
+					<texture diffuse="overlay/right_corner3.png" ></texture>
+			</control>
+			
+				
+			<control type="image" id="2">
+					<posx>1150</posx>
+					<posy>30</posy>
+					<width>800</width>
+					<height>600</height>
+					<texture diffuse="overlay/right_corner3.png" ></texture>
+					
+					<visible>!VideoPlayer.IsFullscreen</visible>
+			</control>
+			
+			<control type="label"  id="4">
+				<visible>true</visible>
+				<posx>30</posx>
+				<posy>520</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>FFFFFFFF</textcolor>
+				<font>font-80</font>
+				<align>right</align>
+			</control>
+			
+			<control type="label"  id="5">
+				<visible>true</visible>
+				<posx>30</posx>
+				<posy>600</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightgreen</textcolor>
+				<font>font-40</font>
+				<align>right</align>
+			</control>
+			
+			<control type="label"  id="7">
+				<visible>true</visible>
+				<posx>100</posx>
+				<posy>650</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			<control type="textbox" id="6">
+				   <description>Sources</description>
+					   <left>30</left>
+					   <top>800</top>
+					   <width>1800</width>
+					   <height>200</height>
+					   <visible>true</visible>
+					   <colordiffuse>FFFFFFFF</colordiffuse>
+					   <font>font-28</font>
+					   
+					   <textcolor>FFFFFFFF</textcolor>
+					   <pulseonselect></pulseonselect>
+					   <pagecontrol>105</pagecontrol>
+					   <scrolltime>200</scrolltime>
+					   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+					   <label>Text to display goes here [CR] next line...</label>
+					   <align>left</align>
+			</control>
+			
+			<control type="progress" id="8">
+						<description>progress control</description>
+						<posx>100</posx>
+						<posy>710</posy>
+						<width>670</width>
+						<height>35</height>
+						<texturebg  border="1,1,1,1">5.png</texturebg>
+						<midtexture  border="1,1,1,1">2.png</midtexture>
+						
+					<lefttexture>-</lefttexture>
+					<righttexture>-</righttexture>
+			</control>
+			<control type="label"  id="9">
+				<visible>true</visible>
+				<posx>780</posx>
+				<posy>690</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			<control type="label"  id="10">
+				<visible>true</visible>
+				<posx>100</posx>
+				<posy>730</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+			
+			<control type="label"  id="11">
+				<visible>true</visible>
+				<posx>1050</posx>
+				<posy>740</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightgreen</textcolor>
+				<font>font-28</font>
+			</control>
+			<control type="button" id="3002">
+					<description>Close Window button</description>
+					<posx>30</posx>
+					<posy>1000</posy>
+					<width>200</width>
+					<height>60</height>
+					<label>-</label>
+					<font>-</font>
+					<onclick>PreviousMenu</onclick>
+					<texturefocus>bclose_dark.png</texturefocus>
+					<texturenofocus>bclose.jpg</texturenofocus>
+					<visible>system.getbool(input.enablemouse)</visible>			
+					
+				</control>	
+			<control type="label"  id="13">
+				<visible>true</visible>
+				<posx>1100</posx>
+				<posy>690</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>red</textcolor>
+				<font>font-40</font>
+			</control>
+			<control type="label"  id="14">
+				<visible>true</visible>
+				<posx>1300</posx>
+				<posy>740</posy>
+				<width>auto</width>
+				<height>80</height>
+				<aligny>center</aligny>
+				
+				<textcolor>lightblue</textcolor>
+				<font>font-28</font>
+			</control>
+		</control>
+    </controls>
+</window>
