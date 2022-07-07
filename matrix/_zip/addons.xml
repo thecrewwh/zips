@@ -463,7 +463,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tvone" name="tvOne" version="25+matrix.1" provider-name="RACC">
+<addon id="plugin.video.tvone" name="tvOne" version="26+matrix.1" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.pycryptodome"/>
