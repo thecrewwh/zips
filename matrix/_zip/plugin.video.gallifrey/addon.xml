@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gallifrey" name="[COLORcyan]Gallifrey[/COLOR]" version="1.0" provider-name="Timelord">
+<addon id="plugin.video.gallifrey" name="[COLORcyan]Gallifrey[/COLOR]" version="1.4" provider-name="John Smith">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -16,7 +16,7 @@
     <summary lang="en_GB">Doctor Who Complete Collection All One Click</summary>
     <platform>all</platform>
     <language>en</language>
-    <license>GPL-2.0-or-later</license>
+    <license>Tardis</license>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>

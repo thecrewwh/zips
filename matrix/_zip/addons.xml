@@ -203,7 +203,7 @@
 
 </addon>
 
-<addon id="plugin.video.gallifrey" name="[COLORcyan]Gallifrey[/COLOR]" version="1.0" provider-name="Timelord">
+<addon id="plugin.video.gallifrey" name="[COLORcyan]Gallifrey[/COLOR]" version="1.4" provider-name="John Smith">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -220,7 +220,7 @@
     <summary lang="en_GB">Doctor Who Complete Collection All One Click</summary>
     <platform>all</platform>
     <language>en</language>
-    <license>GPL-2.0-or-later</license>
+    <license>Tardis</license>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
@@ -312,7 +312,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.3">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.4">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -724,7 +724,7 @@ Add-on originally by doko.
   </extension>
 </addon>
 
-<addon id="script.homelander.artwork" version="1.0.1" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
+<addon id="script.homelander.artwork" version="1.0.2" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
@@ -740,7 +740,7 @@ Add-on originally by doko.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.5" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.0.6" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
