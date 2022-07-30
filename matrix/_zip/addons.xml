@@ -401,7 +401,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chains Reaction Lite"
-	   version="2.0.3"
+	   version="2.0.5"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
