@@ -578,7 +578,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.6.4" provider-name="doko">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.6.5" provider-name="doko">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -588,6 +588,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+[B]0.6.5:[/B]
+- Changed user agent
+
 [B]0.6.4:[/B]
 - Changed site to new domain
 
