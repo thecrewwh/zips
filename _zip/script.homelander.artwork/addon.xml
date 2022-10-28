@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.homelander.artwork" version="1.0.2" name="[COLOR red]Homelander [/COLOR]Artwork" provider-name="Homelander">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.19.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Homelander Artwork</summary>
+        <description>Homelander Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.4">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <!--<import addon="script.homelander.metadata" />-->
+        <import addon="script.homelander.artwork" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.homelanderscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+		<import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="homelander.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Homelander</summary>
+        <description lang="en_GB">[COLOR red]The Crew Team[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+        See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
