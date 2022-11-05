@@ -153,7 +153,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="1.1.8" provider-name="The Crew">
+<addon id="plugin.program.thecrewiz" name="[COLOR orchid]THE CREW WIZARD[/COLOR]" version="1.1.9" provider-name="The Crew">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" />
