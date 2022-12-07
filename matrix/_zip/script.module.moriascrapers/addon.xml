@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.moriascrapers" name="MoriaScrapers Module" version="1.03.04" provider-name="Moria">
+<addon id="script.module.moriascrapers" name="MoriaScrapers Module" version="1.03.05" provider-name="Moria">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
