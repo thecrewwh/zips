@@ -431,8 +431,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="Chains Reaction Lite"
-	   version="2.0.9"
+	   name="Chains Reaction"
+	   version="2.1.0"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -596,7 +596,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone112" name="tvOne112" version="1+matrix.1" provider-name="RACC">
+<addon id="plugin.video.tvone112" name="tvOne112" version="2+matrix.1" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.pycryptodome"/>
@@ -764,7 +764,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.1.0" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.1.1" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
