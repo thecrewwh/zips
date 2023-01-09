@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Genocide"                                                                                                                                    
 	   name="[COLORdarkred]Chain's Genocide[/COLOR]"                                                 
-	   version="1.3.3"                                                                                                                                        
+	   version="1.3.4"                                                                                                                                        
 	   provider-name="[COLORdarkred]Genocide[/COLOR]">
   <requires>
 	<import addon="script.module.resolveurl"/>
