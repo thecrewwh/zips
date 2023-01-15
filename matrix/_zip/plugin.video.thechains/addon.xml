@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.thechains"                                                                                                                                    
 	   name="Chains Reaction"                                                 
-	   version="2.1.2"                                                                                                                                        
+	   version="2.1.3"                                                                                                                                        
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -15,7 +15,7 @@
   <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Chain Reaction Lite</summary>
+    <summary lang="en">Chain Reaction</summary>
     <description lang="en">Faster Than A Speeding Bullet</description>
 	
     <platform>all</platform>
