@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.moria" name="[COLORff58c1e0][B]MORIA[/B][/COLOR]" provider-name="CC" version="4.11.09">
+<addon id="plugin.video.moria" name="[COLORff58c1e0][B]MORIA[/B][/COLOR]" provider-name="CC" version="4.11.10">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.moria.metadata" />-->

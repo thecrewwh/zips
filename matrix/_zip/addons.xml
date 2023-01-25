@@ -302,7 +302,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.4">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.5">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -356,7 +356,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.moria" name="[COLORff58c1e0][B]MORIA[/B][/COLOR]" provider-name="CC" version="4.11.09">
+<addon id="plugin.video.moria" name="[COLORff58c1e0][B]MORIA[/B][/COLOR]" provider-name="CC" version="4.11.10">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.moria.metadata" />-->
@@ -471,7 +471,7 @@
 
 </addon>
 
-<addon id="plugin.video.thecrew" version="1.1.6b" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="1.1.7" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.thecrew" />
@@ -865,7 +865,7 @@ Random updates by lolage.
 	</extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.1.6r" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.1.7" provider-name="The Crew">
     <requires>
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="script.module.beautifulsoup4"/>
