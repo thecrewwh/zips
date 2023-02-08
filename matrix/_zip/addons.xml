@@ -253,32 +253,31 @@
 </addon>
 
 <addon id="plugin.video.ghost"
-	   name="Ghost"
-	   version="1.3.6"
-	   provider-name="Ghost">
-  <requires>
+		name="Ghost"
+		version="1.3.6"
+		provider-name="Ghost">
+	<requires>
 	<import addon="script.module.resolveurl"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension library="resources/modules/" point="xbmc.python.module" />
-  <extension library="resources/sources/" point="xbmc.python.module" />
-  <extension library="resources/" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
+	</requires>
+	<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension library="resources/modules/" point="xbmc.python.module" />
+	<extension library="resources/sources/" point="xbmc.python.module" />
+	<extension library="resources/" point="xbmc.python.module" />
+	<extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Ghost</summary>
-    <description lang="en">All In One Addon</description>
+	<summary lang="en">Ghost</summary>
+	<description lang="en">All In One Addon</description>
 
-    <platform>all</platform>
+	<platform>all</platform>
 	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 			<screenshot>screenshot.jpg</screenshot>
-    </assets>
-  </extension>
-
+	</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.ghosttv" name="[COLOR red]Ghost TV[/COLOR]" version="1.1" provider-name="Ghost">
