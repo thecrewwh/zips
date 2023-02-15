@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="3.0.6" provider-name="Chain Reaction">
+<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="3.0.7" provider-name="Chain Reaction">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
