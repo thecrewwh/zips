@@ -661,7 +661,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.9.1" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.10.3" provider-name="WNT2">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -681,19 +681,25 @@ Add-on originally by doko.
 Random updates by lolage.
         </description>
         <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers. This add-on only scrapes web pages.</disclaimer>
-		<language>en</language>
+        <language>en</language>
         <platform lang="en">all</platform>
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
-[B]0.9.1:[/B]
-- Movies and OVAs now show thumbnails if available
-- Latest Movies Now show fanart if option is enabled
-- Update Thumbnail Hashes
+[B]0.10.3:[/B]
+- Force mount session on each request
 
-[B]0.9.0:[/B]
-- Add option to show fanart for episodes, movies &amp; OVAs
-  - Needs to be enabled in options
-- Update Thumbnail Hashes</news>
-		<assets>
+[B]0.10.2:[/B]
+- Change session mount
+
+[B]0.10.1:[/B]
+- Revert clean title changes
+
+[B]0.10.0:[/B]
+- Fix listitem deprecated warnings
+- Latest Movies Now show thumbnails if available
+- Some Code clean-up
+- Update Thumbnail Hashes
+- Update User Agent</news>
+        <assets>
             <icon>icon.png</icon>
         </assets>
     </extension>
