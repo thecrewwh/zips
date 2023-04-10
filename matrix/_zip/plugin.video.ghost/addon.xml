@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ghost"                                                                                                                                    
 	   name="Ghost"                                                 
-	   version="1.3.8"                                                                                                                                        
+	   version="1.3.9"                                                                                                                                        
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -10,13 +10,9 @@
             library="default.py">
         <provides>video</provides>
   </extension>
-  <extension library="resources/modules/" point="xbmc.python.module" />
-  <extension library="resources/sources/" point="xbmc.python.module" />
-  <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
-	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Ghost</summary>
-    <description lang="en">All In One Addon</description>
+    <summary lang="en">Ghost Addon</summary>
+    <description lang="en">All in one addon</description>
 	
     <platform>all</platform>
 	<assets>
