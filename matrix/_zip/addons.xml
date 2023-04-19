@@ -287,7 +287,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.8">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Homelander" version="1.0.9">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -430,8 +430,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="ChaiS Reaction"
-	   version="2.2.1"
+	   name="Chains Reaction"
+	   version="2.2.4"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
