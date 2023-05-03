@@ -430,8 +430,8 @@
 </addon>
 
 <addon id="plugin.video.thechains"
-	   name="Chains Reaction"
-	   version="2.2.4"
+	   name="Chain Reaction"
+	   version="2.2.5"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
