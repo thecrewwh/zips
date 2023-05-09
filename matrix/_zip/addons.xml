@@ -58,7 +58,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="3.0.7" provider-name="Chain Reaction">
+<addon id="plugin.program.ChainsMatrix" name="Chains Build Wizard" version="3.0.8" provider-name="Chain Reaction">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
@@ -90,7 +90,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.ComicThemes" name="[COLORghostwhite]Chains Theme Wizard[/COLOR]" version="1.1.1" provider-name="CHAINS">
+<addon id="plugin.program.ComicThemes" name="[COLORpurple]Chains Theme Wizard[/COLOR]" version="1.1.3" provider-name="CHAINS">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -431,7 +431,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.2.5"
+	   version="2.2.7"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -491,131 +491,6 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.tvone" name="tvOne" version="26+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne</summary>
-    <description lang="en_gb">tvOne</description>
-    <disclaimer lang="en_gb"/>
-    <language/>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-    <forum/>
-    <website/>
-    <email/>
-    <source/>
-    <assets/>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvone11" name="tvOne11" version="27+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne11</summary>
-    <description lang="en_gb">tvOne11</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvone111" name="tvOne111" version="24+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne111</summary>
-    <description lang="en_gb">tvOne111</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvone1112" name="tvOne1112" version="111+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.dateutil"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne1112</summary>
-    <description lang="en_gb">tvOne1112</description>
-    <disclaimer lang="en_gb"/>
-    <language/>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
-    <forum/>
-    <website/>
-    <email/>
-    <source/>
-    <assets/>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvone112" name="tvOne112" version="2+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne112</summary>
-    <description lang="en_gb">tvOne112</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
-  </extension>
 </addon>
 
 <addon id="plugin.video.unleashed"
@@ -850,7 +725,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.1.7" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.1.8" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
