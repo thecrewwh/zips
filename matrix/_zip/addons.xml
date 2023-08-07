@@ -151,6 +151,44 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.absolution" name="[COLOR teal]Absolution[/COLOR]" provider-name="absolution" version="2.0.7">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <!--<import addon="script.absolution.metadata" />-->
+        <import addon="script.absolution.artwork" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.absolutionscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+		<import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="absolution.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Absolution Media</summary>
+        <description lang="en_GB">[COLOR teal]The Chains Team[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+			<screenshot>screenshot.jpg</screenshot>
+        </assets>
+        <news>
+        See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.base19"
 	   name="[COLORred]BASE 19[/COLOR]"
 	   version="1.0.1"
@@ -239,6 +277,34 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="plugin.video.Gallifrey"
+	   name="Gallifrey"
+	   version="1.0.8"
+	   provider-name="Gallifrey">
+  <requires>
+	<import addon="script.module.resolveurl"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension library="resources/modules/" point="xbmc.python.module" />
+  <extension library="resources/sources/" point="xbmc.python.module" />
+  <extension library="resources/" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+	<reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en">Gallifrey Is A Complete Collection Of Doctor Who</summary>
+    <description lang="en">Welcome To The Tardis</description>
+
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+
 </addon>
 
 <addon id="plugin.video.ghost"
@@ -409,7 +475,7 @@
 
 <addon id="plugin.video.scifi"
 	   name="For Love Of Sci Fi"
-	   version="1.0.0"
+	   version="1.0.1"
 	   provider-name="Captain Kirk">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -459,7 +525,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.3.0"
+	   version="2.3.1"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -675,6 +741,22 @@ Random updates by lolage.
   </extension>
 </addon>
 
+<addon id="script.absolution.artwork" version="1.0.8" name="[COLORteal]Absolution Artwork[/COLOR]Artwork" provider-name="absolution">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.19.0"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>absolution Artwork</summary>
+        <description>absolution Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.chainsgenocide.artwork" version="1.0.2" name="[COLOR red]ChainsGenocide [/COLOR]Artwork" provider-name="ChainsGenocide">
     <requires>
         <!--<import addon="xbmc.python" version="2.19.0"/>-->
@@ -704,6 +786,35 @@ Random updates by lolage.
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.absolutionscrapers" name="[COLOR red]absolution [/COLOR]Scrapers" version="1.1.7" provider-name="absolution">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.orion" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">absolution Scrapers Module</summary>
+            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
     </extension>
 </addon>
 
