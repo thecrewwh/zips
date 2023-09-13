@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.chainsgenocide" name="[COLOR red]ChainsGenocide[/COLOR]" provider-name="ChainsGenocide" version="0.0.8">
+<addon id="plugin.video.chainsgenocide" name="[COLOR red]Chains Genocide[/COLOR]" provider-name="ChainsGenocide" version="0.0.9">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.chainsgenocide.metadata" />-->
@@ -18,7 +18,7 @@
     <extension library="service.py" point="xbmc.service" start="startup" />
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">Chainsgenocide</summary>
+        <summary lang="en_GB">Chains genocide</summary>
         <description lang="en_GB">[COLOR red]The Chains Team[/COLOR]</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
