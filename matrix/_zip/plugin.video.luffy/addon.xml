@@ -1,4 +1,4 @@
-<addon id="plugin.video.luffy" version="1.0.2" name="Luffy" provider-name="Luffy">
+<addon id="plugin.video.luffy" version="1.0.3" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />

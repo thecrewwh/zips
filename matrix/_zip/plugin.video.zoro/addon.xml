@@ -1,4 +1,4 @@
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.2">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.3">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
