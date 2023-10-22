@@ -408,7 +408,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.luffy" version="1.0.3" name="Luffy" provider-name="Ghost">
+<addon id="plugin.video.luffy" version="1.0.4" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -756,7 +756,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.3">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.4">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
