@@ -1,0 +1,73 @@
+<addon id="plugin.video.coalition" version="1.2.3" name="[COLORghostwhite]The Coalition[/COLOR]" provider-name="Marcus">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/coalition.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/service.py" />
+    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources/lib/contextmenu.py" args="refresh_widgets">
+                <label>40001</label>
+                <visible>String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_watched_params">
+                <label>40003</label>
+                <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)] + String.IsEqual(ListItem.Property(coalition_widget),true) + String.IsEqual(ListItem.Property(coalition_playcount),0)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_unwatched_params">
+                <label>40004</label>
+                <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)] + String.IsEqual(ListItem.Property(coalition_widget),true) + String.IsEqual(ListItem.Property(coalition_playcount),1)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_clearprog_params">
+                <label>40009</label>
+                <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)] + String.IsEqual(ListItem.Property(coalition_widget),true) + String.IsEqual(ListItem.Property(coalition_in_progress),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_browse_params">
+                <label>40002</label>
+                <visible>String.IsEqual(ListItem.dbtype,episode) + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_browse_seas_params">
+                <label>40011</label>
+                <visible>String.IsEqual(ListItem.dbtype,episode) + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_trakt_manager_params">
+                <label>40005</label>
+                <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_fav_manager_params">
+                <label>40008</label>
+                <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_random_params">
+                <label>40010</label>
+                <visible>[String.IsEqual(ListItem.dbtype,tvshow)] + String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_options_menu_params">
+                <label>40007</label>
+                <visible>String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+            <item library="resources/lib/contextmenu.py" args="coalition_extras_menu_params">
+                <label>40006</label>
+                <visible>String.IsEqual(ListItem.Property(coalition_widget),true)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
+        <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.This addon searches websites for content.The author is not responsible for the use of this addon.The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
+        <summary>Media Content</summary>
+        <assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
