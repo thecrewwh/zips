@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Gallifrey"                                                                                                                                    
 	   name="Gallifrey"                                                 
-	   version="1.0.8"                                                                                                                                        
+	   version="1.0.9"                                                                                                                                        
 	   provider-name="Gallifrey">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -20,7 +20,7 @@
 	
     <platform>all</platform>
 	<assets>
-            <icon>icon.png</icon>
+            <icon>icon.gif</icon>
             <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
