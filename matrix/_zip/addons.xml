@@ -1057,7 +1057,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.2.8" provider-name="Homelander">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.2.9" provider-name="Homelander">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
