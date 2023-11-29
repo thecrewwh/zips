@@ -1,37 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.chainsgenocide" name="[COLOR red]Chains Genocide[/COLOR]" provider-name="ChainsGenocide" version="0.0.9">
-    <requires>
-        <!--<import addon="xbmc.python" version="2.20.0" />-->
-        <!--<import addon="script.chainsgenocide.metadata" />-->
-        <import addon="script.chainsgenocide.artwork" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.chainsgenocidescrapers" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.simplejson" />
+<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.5">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
 		<import addon="plugin.video.youtube" optional="true" />
-    </requires>
-    <extension library="chainsgenocide.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">Chains genocide</summary>
-        <description lang="en_GB">[COLOR red]The Chains Team[/COLOR]</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
-        <website />
-        <source />
-        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news>
-        See Changelog on Tools menu
-        </news>
-    </extension>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="chainsgenocide.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en">[COLORwhite]chains genocide[/COLOR] - We do not host any of the contents</summary>
+		<description lang="en">[B][COLORghostwhite]chains genocide[/COLOR][/B]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum />
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+
+	</extension>
 </addon>

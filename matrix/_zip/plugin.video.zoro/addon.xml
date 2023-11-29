@@ -1,4 +1,4 @@
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.5">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.6">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -12,7 +12,7 @@
 	<extension point="xbmc.python.module" library="resources/lib/" />
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="en">Debrid Scrapers</summary>
+		<summary lang="en">Movies And TV Swows (Debrid Scrapers)</summary>
 		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
