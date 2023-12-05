@@ -189,9 +189,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.base19"
-	   name="[COLORred]BASE 19[/COLOR]"
-	   version="1.0.1"
+<addon id="plugin.video.base"
+	   name="[COLORred]BASE[/COLOR]"
+	   version="1.4"
 	   provider-name="BReeZz">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -201,8 +201,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">All Thanks To Original Dev</summary>
-    <description lang="en">Real Debrid Required</description>
+    <summary lang="en">Base</summary>
+    <description lang="en">Base Addon</description>
 
     <platform>all</platform>
 	<assets>
@@ -373,7 +373,7 @@
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.4.0"
+	   version="1.4.2"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.resolveurl"/>
