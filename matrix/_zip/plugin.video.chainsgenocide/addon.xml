@@ -1,4 +1,4 @@
-<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.6">
+<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.7">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
