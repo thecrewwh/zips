@@ -1,4 +1,4 @@
-<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.7">
+<addon id="plugin.video.chainsgenocide" name="chains genocide" provider-name="chains" version="1.0.8">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -19,7 +19,7 @@
 		<forum />
 		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<assets>
-			<icon>icon.gif</icon>
+			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
 
