@@ -1,4 +1,4 @@
-<addon id="plugin.video.coalition" version="1.2.4" name="[COLORghostwhite]The Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.2.6" name="[COLORcyan]The Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -66,7 +66,7 @@
         <summary>Media Content</summary>
         <assets>
             <icon>icon.gif</icon>
-            <fanart>fanart.png</fanart>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
