@@ -417,7 +417,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.2">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.3">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
