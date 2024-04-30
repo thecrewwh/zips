@@ -241,7 +241,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.coalition" version="1.2.8" name="[COLORcyan]The Coalition[/COLOR]" provider-name="Marcus">
+<addon id="plugin.video.coalition" version="1.2.9" name="[COLORcyan]The Coalition[/COLOR]" provider-name="Marcus">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -472,7 +472,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.luffy" version="1.0.7" name="Luffy" provider-name="Ghost">
+<addon id="plugin.video.luffy" version="1.0.8" name="Luffy" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -823,7 +823,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.0.9">
+<addon id="plugin.video.zoro" name="Zoro" provider-name="Ghost" version="1.1.0">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
