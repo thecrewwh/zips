@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.thechains"                                                                                                                                    
 	   name="Chain Reaction"                                                 
-	   version="2.4.4"                                                                                                                                        
+	   version="2.4.6"                                                                                                                                        
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -15,7 +15,7 @@
   <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en">Chain Reaction For Kodi Matrix And Nexus</summary>
+    <summary lang="en">Chain Reaction For All Your Streaming Needs</summary>
     <description lang="en">Faster Than A Speeding Bullet</description>
 	
     <platform>all</platform>
