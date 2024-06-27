@@ -417,7 +417,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.4">
+<addon id="plugin.video.homelander" name="[COLOR red]Homelander[/COLOR]" provider-name="Ghost" version="1.2.5">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.homelander.metadata" />-->
@@ -1062,7 +1062,7 @@ Random updates by lolage.
     </extension>
 </addon>
 
-<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.3.2" provider-name="Ghost">
+<addon id="script.module.homelanderscrapers" name="[COLOR red]Homelander [/COLOR]Scrapers" version="1.3.4" provider-name="Ghost">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
