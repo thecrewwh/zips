@@ -314,7 +314,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="4.16" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.17" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
