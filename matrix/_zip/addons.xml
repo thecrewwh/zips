@@ -373,7 +373,7 @@
 
 <addon id="plugin.video.ghost"
 	   name="Ghost"
-	   version="1.4.6"
+	   version="1.4.8"
 	   provider-name="Ghost">
   <requires>
 	<import addon="script.module.resolveurl"/>
@@ -663,7 +663,7 @@
 
 <addon id="plugin.video.thechains"
 	   name="Chain Reaction"
-	   version="2.4.6"
+	   version="2.4.9"
 	   provider-name="Chains">
   <requires>
 	<import addon="script.module.resolveurl"/>
