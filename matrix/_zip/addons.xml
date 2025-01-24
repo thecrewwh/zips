@@ -219,7 +219,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.0" provider-name="THE CREW">
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.1" provider-name="THE CREW">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.kodi-six" />
@@ -229,9 +229,9 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">SSTV Addon</summary>
+        <summary lang="en">SSTV Kodi Addon</summary>
         <language>en</language>
-        <description lang="en">Come visit our site: https://sstvhd.uk/ and Follow us on Twitter: @SSTVUK</description>
+        <description lang="en">Come visit our site: https://sstvhd.uk/ and Follow us on Twitter: @SSTVUK.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
