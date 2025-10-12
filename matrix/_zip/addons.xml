@@ -109,7 +109,7 @@
 
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="4.44" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.45" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -191,34 +191,6 @@
 - See Changelog on Tools menu
         </news>
     </extension>
-</addon>
-
-<addon id="plugin.video.purelywrestling" name="Purely Wrestling" version="1.0.3" provider-name="The Crew">
-	<requires>
-		<import addon="script.module.pyxbmct" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.simplejson" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="purely.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-	<summary lang="en">Purely Wrestling</summary>
-	<description lang="en">Purely Wrestling</description>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-		</assets>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-	</extension>
 </addon>
 
 <addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.1" provider-name="THE CREW">
@@ -330,29 +302,6 @@
     <summary lang="en">The Crew Sounds</summary>
     <description lang="en">The Crew Sounds</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.kodi-six"
-       name="Kodi Six"
-       version="0.1.3.1"
-       provider-name="Roman V.M.">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="libs" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Wrappers around Kodi Python API for seamless Python 2/3 compatibility</summary>
-    <description lang="en_GB">Wrappers around Kodi Python API that normalize handling of textual and byte strings in Python 2 and 3.</description>
-    <platform>all</platform>
-    <license>GPL v.3</license>
-    <forum>https://forum.kodi.tv/showthread.php?tid=327883</forum>
-    <source>https://github.com/romanvm/kodi.six</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <news>0.1.3:
-- Fix non-UTF-8 byte string decoding in Python 2.</news>
   </extension>
 </addon>
 
