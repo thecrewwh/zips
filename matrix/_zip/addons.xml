@@ -193,6 +193,34 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.purelywrestling" name="Purely Wrestling" version="1.0.3" provider-name="The Crew">
+	<requires>
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.simplejson" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="purely.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="en">Purely Wrestling</summary>
+	<description lang="en">Purely Wrestling</description>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.1" provider-name="THE CREW">
     <requires>
         <import addon="script.module.requests" />
