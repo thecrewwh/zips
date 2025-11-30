@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.1" provider-name="THE CREW">
+<addon id="plugin.video.sstv" name="[B][COLOR blue]SSTV[/COLOR][/B]" version="4.2" provider-name="THE CREW">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.kodi-six" />
