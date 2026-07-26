@@ -212,10 +212,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="3.0.11" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="3.2.0" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.thecrew" version="3.0.9.8" />
+        <import addon="script.module.thecrew" version="3.2.0" />
         <import addon="script.thecrew.artwork" />
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
@@ -304,6 +304,34 @@
   </extension>
 </addon>
 
+<addon id="script.module.classyscrapers"
+		name="Classy Scrapers"
+		version="1.0.1"
+		provider-name="Classy">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="lib/service.py" start="startup" />
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en">Classy's Scrapers Module</summary>
+		<description>Classy-branded torrent scraper pack for The Crew.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">This module simply scans for internet sources that match common metadata. The author does not host or own any content.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>1.0.1 - Few fixes (help viewer, branding)</news>
+	</extension>
+</addon>
+
 <addon id="script.module.moriascrapers" name="MoriaScrapers Module" version="1.03.05" provider-name="Moria">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
@@ -346,7 +374,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="3.0.9.9" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="3.2.0" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.beautifulsoup4"/>
@@ -379,7 +407,7 @@
 	</extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="3.0.9" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="3.2.0" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
     </requires>
