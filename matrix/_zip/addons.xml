@@ -212,10 +212,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.thecrew" version="3.2.0" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="3.2.1" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.thecrew" version="3.2.0" />
+        <import addon="script.module.thecrew" version="3.2.5" />
         <import addon="script.thecrew.artwork" />
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
@@ -224,6 +224,8 @@
         <import addon="script.module.requests" />
         <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.six" />
+        <!-- Orion: runtime-only (c.is_orion_installed). Do NOT list in requires — Kodi blocks
+            install when script.module.orion is unavailable even with optional="true". -->
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
@@ -374,7 +376,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="3.2.4" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="3.2.5" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.beautifulsoup4"/>
