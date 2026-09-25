@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- crew-index-rev 3.2.6 -->
+<!-- crew-index-rev 3.2.14 -->
 <addons>
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2025.0.1" provider-name="Jon Bovi">
     <requires>
@@ -428,4 +428,3 @@
     </extension>
 </addon>
 </addons>
-
