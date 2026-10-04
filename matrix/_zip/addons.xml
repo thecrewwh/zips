@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- crew-index-rev daddylive-5.01 -->
+<!-- crew-index-rev daddylive-5.0.1 -->
 <addons>
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2025.0.1" provider-name="Jon Bovi">
     <requires>
@@ -427,7 +427,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.daddylive" name="Daddylive" version="5.01" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="5.0.1" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
